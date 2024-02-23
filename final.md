@@ -21,7 +21,7 @@ right view comes first. We understand that this is just nature. «There is …»
 That will be the phrase that will be very helpful to you. Whenever you find 
 yourself being attacked by something, sadness or grief or anger or aversion, 
 «there is …». Feel it for yourself! Observe it! Note it! Don’t get sucked into 
-it. Don't get playing in the content of your mind. Step back and see the structure, (:283:) so the content can be let go of. We don't hold on to it.
+it. Don't get playing in the content of your mind. Step back and see the structure, [283]{.pdfpage}  so the content can be let go of. We don't hold on to it.
 
 We know that objects are just objects. Nature is just nature. We know 
 that  experiences  are  just  experiences.  They  are  not  happening  to  anyone. 
@@ -55,7 +55,7 @@ accept then we can’t learn. If we can’t learn, we can't let go.
 
 We are not trying to change the experience. We're trying to change our 
 attention  to  the  experience.  Whatever  is  happening  is  happening.  We  are 
- (:284:) changing  the  way  we're  experiencing  it  in  the  moment.  Instead  of  blindly 
+ [284]{.pdfpage}  changing  the  way  we're  experiencing  it  in  the  moment.  Instead  of  blindly 
 reacting to it, from a place of ignorance, we are pulling our mind into the 
 present so that we see things as they are. Letting go happens very naturally. 
 Especially  when  the  mind  is  properly  trained. When  we  have  gone  to  the 
@@ -90,5 +90,5 @@ to achieve, to get or to become someone. We are just chilling in the present
 moment watching things arise and pass away without reaction. It's very, very 
 peaceful and becomes very blissful once the technique is mastered.
 
-(:285:) So dhamma is there all the time. It’s everywhere. We just need to take 
+[285]{.pdfpage}  So dhamma is there all the time. It’s everywhere. We just need to take 
 the time to have a look at it.

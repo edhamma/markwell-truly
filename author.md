@@ -5,7 +5,7 @@
 :align: center
 ```
 
-(:301:) Anthony  ordained  as  a  Buddhist  monk  aged  24  at  Wat  Khao  Chong 
+[301]{.pdfpage}  Anthony  ordained  as  a  Buddhist  monk  aged  24  at  Wat  Khao  Chong 
 Lom in 1995 with his first teacher the late Ven. Phra Acharn Leua Pannavaro. He was instructed in satipatthana vipassana at Vivek Asom Meditation 
 Centre by Ven. Ajhan Charee Jaruvanno and Ven. Ajahn Somsak Sorado, and 
 practiced intensely at Wat Don Put under the late Ven. Luang Por Bhavanakitti, a rare monk of noble wisdom. He moved to Myanmar to continue his 
@@ -16,7 +16,7 @@ practice.
 The lure of the forest monk lifestyle and deep concentration led Anthony 
 to seek out the Ven. Sayadaw U Acinna in 1997 at the Pa Auk Forest Monastery, where he received instruction for a year in anapanasati (mindfulness 
 with breathing) and four elements meditation. Anthony retreated to the hills 
- (:302:) of the Shan State for a further year of meditation in an isolated monastery. 
+ [302]{.pdfpage}  of the Shan State for a further year of meditation in an isolated monastery. 
 After four years in robes and constant practice, Anthony studied Buddhist 
 texts and Pali language at the International Buddhist University in Yangon 
 consolidating his meditation experiences with scriptural studies. His interest in Pali was furthered through self-study whilst living at the Shwedagon 

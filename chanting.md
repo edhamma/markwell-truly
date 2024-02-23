@@ -1,6 +1,6 @@
 # Chanting
 
-## (:287:) Morning Chanting
+## [287]{.pdfpage}  Morning Chanting
 
 
 
@@ -29,7 +29,7 @@ I pay respect to the Sangha.
 (BOW DOWN)
 
 
-### (:288:) Homage
+### [288]{.pdfpage}  Homage
 
 
 
@@ -44,7 +44,7 @@ Namo tassa bhagavato arahato sammāsambuddhassa.**
 
 Homage to the Blessed One, the Worthy One, the Rightly Self-Awakened One.
 
-### (:289:) Going for Refuge
+### [289]{.pdfpage}  Going for Refuge
 
 
 
@@ -79,7 +79,7 @@ A third time, I go to the Dhamma for refuge.
 **Tatiyampi sangham saranam gacchāmi.**
 A third time, I go to the Sangha for refuge.
 
-### (:290:) Taking the Eight Precepts
+### [290]{.pdfpage}  Taking the Eight Precepts
 
 
 
@@ -159,7 +159,7 @@ pertinent, to be seen by the observant for themselves.
 
 
 
-### (:292:) Recollection of the Sangha
+### [292]{.pdfpage}  Recollection of the Sangha
 
 
 
@@ -194,7 +194,7 @@ respect,
 the incomparable field of merit for the world.
 
 
-### (:293:) The Sublime Attitudes
+### [293]{.pdfpage}  The Sublime Attitudes
 
 
 
