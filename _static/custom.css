@@ -1,0 +1,6 @@
+.pdfpage{
+  border-color: rgba(255,0,0,.5);
+  border-style: solid;
+  border-width: 1px;
+  color: rgba(127,127,127,.7);
+}
