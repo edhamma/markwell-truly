@@ -53,7 +53,6 @@ html_theme_options = dict(
   # collapse_navbar=False,
   use_download_button=False,
   footer_content_items=['copyright.html','extra-footer.html'],
-  #extra_footer='<a href="https://woodem.eu/~eudoxos/mttc/mttc.pdf"><i class="fa-solid fa-file-pdf"></i> download as PDF</a>'
 )
 
 show_navbar_depth=4
@@ -70,7 +69,7 @@ html_title='Truly Understanding …'
 
 
 latex_engine='lualatex'
-latex_documents=[('index','tutb.tex',project,author,'manual')]
+latex_documents=[('index','markwell-truly-understanding.tex',project,author,'manual')]
 latex_elements=dict(
     preamble=r'''
         \newcommand{\DUrolepdfpage}[1]{\marginpar{\textcolor{gray}{\scriptsize [#1]}}}
@@ -78,3 +77,21 @@ latex_elements=dict(
     fontpkg=r'\usepackage{termes-otf}\usepackage{heros-otf}'
 )
 latex_additional_files=['termes-otf.sty','heros-otf.sty']
+
+
+epub_title = project
+epub_author = author
+epub_publisher = ''
+epub_copyright = copyright
+epub_cover = ('cover.png','epub-cover.html')
+epub_language='en'
+epub_basename='markwell-truly-understanding'
+epub_use_index=False
+epub_scheme='ISBN'
+epub_identifier = ''
+# A unique identification for the text.
+epub_uid = 'markwell-truly-understanding'
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
