@@ -73,6 +73,7 @@ latex_engine='lualatex'
 latex_documents=[('index','tutb.tex',project,author,'manual')]
 latex_elements=dict(
     preamble=r'''
+        \newcommand{\DUrolepdfpage}[1]{\marginpar{\textcolor{gray}{\scriptsize [#1]}}}
     ''',
     fontpkg=r'\usepackage{termes-otf}\usepackage{heros-otf}'
 )

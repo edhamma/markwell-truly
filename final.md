@@ -72,8 +72,7 @@ good things in life are associated with pleasantness and all the bad things in
 life are associated with unpleasantness. Why is that? The good is not pleasant. The  pleasant,  if  unseen  properly,  makes  things  good. The  unpleasant,
 if not seen properly, makes things bad.
 *Good and bad are our reaction to*
-*pleasant and unpleasant. That’s all! It's just a judgment in our mind*
-. Just 
+*pleasant and unpleasant. That’s all! It's just a judgment in our mind*. Just 
 a  judgment.  It's  not  truth!  There's  no  reality.  Judgment  just  passed  away. 
 Where is it gone? It doesn't exist anymore. That's how fleeting the mind is, 
 how rapidly it changes.

@@ -200,7 +200,7 @@ dukkha, domanassa, upāyāsā
 12
 
 
-## Vipassana insights (vipassanā ñāṇ(cid:869)[cid:869]as)
+## Vipassana insights (vipassanā ñāṇas)
 
 
 knowledge of the difference between nāma and rūpa,

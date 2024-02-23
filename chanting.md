@@ -1,11 +1,9 @@
 # Chanting
 
-## [287]{.pdfpage}  Morning Chanting
+## Morning Chanting
 
-
-
-**Araham sammā-sambuddho bhagavā.**
-The Blessed One is Worthy &[cid:9] Rightly Self-awakened.
+[287]{.pdfpage}  **Araham sammā-sambuddho bhagavā.**
+The Blessed One is Worthy & Rightly Self-awakened.
 
 **Buddham bhagavantam abhivādemi.**
 I bow down before the Awakened, Blessed One.
@@ -29,9 +27,9 @@ I pay respect to the Sangha.
 (BOW DOWN)
 
 
-### [288]{.pdfpage}  Homage
+### Homage
 
-
+[288]{.pdfpage
 
 [LEADER] [Handa mayam buddhassa bhagavato pubba-bhāga- 
 namakāram karoma se:]
@@ -44,11 +42,9 @@ Namo tassa bhagavato arahato sammāsambuddhassa.**
 
 Homage to the Blessed One, the Worthy One, the Rightly Self-Awakened One.
 
-### [289]{.pdfpage}  Going for Refuge
+### Going for Refuge
 
-
-
-[LEADER]
+[289]{.pdfpage} [LEADER]
 [Handa mayam tisarana-gamana-pātham bhanāma se:]
 [Now let us chant the passage going for refuge to the Triple Gem:]
 
@@ -79,11 +75,9 @@ A third time, I go to the Dhamma for refuge.
 **Tatiyampi sangham saranam gacchāmi.**
 A third time, I go to the Sangha for refuge.
 
-### [290]{.pdfpage}  Taking the Eight Precepts
+### Taking the Eight Precepts
 
-
-
-**Pānātipātā veramanī sikkhā-padam samādiyāmi.**
+[290]{.pdfpage} **Pānātipātā veramanī sikkhā-padam samādiyāmi.**
 I undertake the training rule to refrain from taking life.
 
 **Adinnādānā veramanī sikkhā-padam samādiyāmi.**
@@ -97,21 +91,21 @@ I undertake the training rule to refrain from telling lies.
 
 **Surā-meraya-majja-pamādatthānā veramanī
 sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from intoxicating liquors &[cid:9] 
+I undertake the training rule to refrain from intoxicating liquors & 
 drugs that lead to heedlessness.
 
 **Vikāla-bhojanā veramanī sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from eating after noon &[cid:9] 
+I undertake the training rule to refrain from eating after noon & 
 before dawn.
 
-**Nacca-gīta-vādita-visūka-dassanā mālā-gandha-vilepanadhārana-manḍ(cid:2444)[cid:2444]ana-vibhūsanatthānā veramanī sikkhā-padam 
+**Nacca-gīta-vādita-visūka-dassanā mālā-gandha-vilepanadhārana-manḍana-vibhūsanatthānā veramanī sikkhā-padam 
 samādiyāmi.**
 I undertake the training rule to refrain from dancing, singing, music, 
 watching shows, wearing garlands, beautifying myself with perfumes 
-&[cid:9] cosmetics.
+& cosmetics.
 
 **Uccāsayana-mahāsayanā veramanī sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from high &[cid:9] luxurious seats &[cid:9] 
+I undertake the training rule to refrain from high & luxurious seats & 
 beds.
 
 **Imāni attha sikkhā-padāni samādiyāmi. [x3]**
@@ -133,12 +127,12 @@ Now let us recite the guide to the recollection of the Buddha:
 He is a Blessed One, a Worthy One, a Rightly Self-awakened One,
 
 **Vijjā-carana-sampanno sugato lokavidū,**
-consummate in knowledge &[cid:9] conduct, one who has gone the good 
+consummate in knowledge & conduct, one who has gone the good 
 way, knower of the worlds,
 
 **Anuttaro purisa-damma-sārathi satthā deva
 manussānam buddho bhagavāti.**
-unexcelled trainer of those who can be taught, teacher of human &[cid:9] 
+unexcelled trainer of those who can be taught, teacher of human & 
 divine beings; awakened; blessed.
 
 ### Recollection of the Dhamma
@@ -152,18 +146,16 @@ Now let us recite the guide to the recollection of the Dhamma:
 The Dhamma is well-expounded by the Blessed One,
 
 **Sanditthiko akāliko ehipassiko,**
-to be seen here &[cid:9] now, timeless, inviting all to come &[cid:9] see,
+to be seen here & now, timeless, inviting all to come & see,
 
 **Opanayiko paccattam veditabbo viññūhīti.**
 pertinent, to be seen by the observant for themselves.
 
 
 
-### [292]{.pdfpage}  Recollection of the Sangha
+### Recollection of the Sangha
 
-
-
-[LEADER] Handa mayam Sanghānussati-nayam karoma se:
+[292]{.pdfpage} [LEADER] Handa mayam Sanghānussati-nayam karoma se:
 Now let us recite the guide to the recollection of the Sangha:
 
 **Su-patipanno bhagavato sāvaka-sangho,**
@@ -173,7 +165,7 @@ The Sangha of the Blessed One’s disciples who have practiced well,
 the Sangha of the Blessed One’s disciples who have practiced 
 straightforwardly,
 
-**Ñ[cid:102]āya-patipanno bhagavato sāvaka-sangho,**
+**Ñāya-patipanno bhagavato sāvaka-sangho,**
 the Sangha of the Blessed One’s disciples who have practiced 
 methodically,
 
@@ -181,10 +173,10 @@ methodically,
 the Sangha of the Blessed One’s disciples who have practiced masterfully,
 
 **Yadidam cattāri purisa-yugāni attha purisa-puggalā:**
-i.e., the four pairs—(cid:178)[cid:178]the eight types—(cid:178)[cid:178]of Noble Ones:
+i.e., the four pairs—the eight types—of Noble Ones:
 
-**Esa bhagavato sāvaka-sangho—(cid:178)[cid:178]**
-That is the Sangha of the Blessed One’s disciples—(cid:178)[cid:178]
+**Esa bhagavato sāvaka-sangho—**
+That is the Sangha of the Blessed One’s disciples—
 
 **Ahuneyyo pāhuneyyo dakkhineyyo añjali-karanīyo,**
 worthy of gifts, worthy of hospitality, worthy of offerings, worthy of 
@@ -194,11 +186,10 @@ respect,
 the incomparable field of merit for the world.
 
 
-### [293]{.pdfpage}  The Sublime Attitudes
+### The Sublime Attitudes
 
 
-
-(METTA —(cid:178)[cid:178] LOVING-KINDNESS)
+[293]{.pdfpage} (METTA — LOVING-KINDNESS)
 **Sabbe sattā sukhitā hontu.**
 May all living beings be happy.
 
@@ -214,16 +205,16 @@ May all living beings be free from trouble.
 **Sabbe sattā sukhī attānam pariharantu.**
 May all living beings look after themselves with ease.
 
-(KARUNA —(cid:178)[cid:178] COMPASSION)
+(KARUNA — COMPASSION)
 **Sabbe sattā sabba-dukkhā pamuccantu.**
-May all living beings be freed from all stress &[cid:9] pain.
+May all living beings be freed from all stress & pain.
 
-(MUDITA —(cid:178)[cid:178] SYMPATHETIC JOY)
+(MUDITA — SYMPATHETIC JOY)
 **Sabbe sattā laddha-sampattito mā vigacchantu.**
 May all living beings not be deprived of the good fortune they have 
 attained.
 
-(UPEKKHA —(cid:178)[cid:178] EQUANIMITY)
+(UPEKKHA — EQUANIMITY)
 **Sabbe sattā kamma-ssakā kamma-dāyādā
 kamma-yonī kamma-bandhū kamma-patisaranā.**
 All living beings are the owners of their actions, heir to their actions, 
