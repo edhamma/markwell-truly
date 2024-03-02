@@ -10,14 +10,23 @@ project = 'Truly Understanding the Teachings of the Buddha'
 copyright = '2016 Anthony Markwell, 2019 revised edition'
 author = 'Anthony Markwell'
 
+try:
+    import subprocess
+    release=subprocess.check_output(['git','rev-parse','--short','HEAD']).strip().decode('utf-8')
+except subprocess.CalledProcessError:
+    release = '[built-outside-git]'
+
+
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'myst_parser',
     'linuxdoc.rstFlatTable',
+    'sphinx.ext.extlinks',
 ]
-#extlinks={'audio':('https://woodem.eu/~eudoxos/mttc-audio/%s','%s')}
+extlinks={'ebookweb':('https://edhamma.github.io/markwell-truly/%s','%s')}
 #rst_prolog='''
 #.. role:: pdfpage
 #'''
