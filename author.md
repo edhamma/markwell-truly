@@ -38,5 +38,5 @@ guided  thousands  of  meditators  through  silent  monthly  7-day    and  annua
 Retreat – Dhamma and Meditation Hall in a secluded fruit garden in Koh 
 Phangan. He plans to start leading non-residential vipassana retreats in 2019.
 
-* http://indriya-retreat.org
+* https://indriyaretreat.org
 * https://anthonymarkwell.com
