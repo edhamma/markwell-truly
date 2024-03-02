@@ -2,26 +2,26 @@
 
 ## Morning Chanting
 
-[287]{.pdfpage}  **Araham sammā-sambuddho bhagavā.**
+[287]{.pdfpage}  **Araham sammā-sambuddho bhagavā.** \
 The Blessed One is Worthy & Rightly Self-awakened.
 
-**Buddham bhagavantam abhivādemi.**
+**Buddham bhagavantam abhivādemi.** \
 I bow down before the Awakened, Blessed One.
 
 (BOW DOWN)
 
-**Svākkhāto bhagavatā dhammo.**
+**Svākkhāto bhagavatā dhammo.** \
 The Dhamma is well-expounded by the Blessed One.
 
-**Dhammam namassāmi.**
+**Dhammam namassāmi.** \
 I pay homage to the Dhamma.
 
 (BOW DOWN)
 
-**Supatipanno bhagavato sāvaka-sangho.**
+**Supatipanno bhagavato sāvaka-sangho.** \
 The Sangha of the Blessed One’s disciples has practiced well.
 
-**Sangham namāmi.**
+**Sangham namāmi.** \
 I pay respect to the Sangha.
 
 (BOW DOWN)
@@ -29,89 +29,79 @@ I pay respect to the Sangha.
 
 ### Homage
 
-[288]{.pdfpage
+[288]{.pdfpage}
 
-[LEADER] [Handa mayam buddhassa bhagavato pubba-bhāga- 
-namakāram karoma se:]
+*LEADER: Handa mayam buddhassa bhagavato pubba-bhāga-namakāram karoma se:* \
+Now let us chant the preliminary passage in homage to the Awakened One, the Blessed One:
 
-[Now let us chant the preliminary passage in homage to the Awakened One, the Blessed One:]
-
-**Namo tassa bhagavato arahato sammāsambuddhassa.
-Namo tassa bhagavato arahato sammāsambuddhassa.
+**Namo tassa bhagavato arahato sammāsambuddhassa. \
+Namo tassa bhagavato arahato sammāsambuddhassa. \
 Namo tassa bhagavato arahato sammāsambuddhassa.**
 
 Homage to the Blessed One, the Worthy One, the Rightly Self-Awakened One.
 
 ### Going for Refuge
 
-[289]{.pdfpage} [LEADER]
-[Handa mayam tisarana-gamana-pātham bhanāma se:]
-[Now let us chant the passage going for refuge to the Triple Gem:]
+[289]{.pdfpage} *LEADER: Handa mayam tisarana-gamana-pātham bhanāma se:* \
+Now let us chant the passage going for refuge to the Triple Gem:
 
-**Buddham saranam gacchāmi.**
+**Buddham saranam gacchāmi.** \
 I go to the Buddha for refuge.
 
-**Dhammam saranam gacchāmi.**
+**Dhammam saranam gacchāmi.** \
 I go to the Dhamma for refuge.
 
-**Sangham saranam gacchāmi.**
+**Sangham saranam gacchāmi.** \
 I go to the Sangha for refuge.
 
-**Dutiyampi buddham saranam gacchāmi.**
+**Dutiyampi buddham saranam gacchāmi.** \
 A second time, I go to the Buddha for refuge.
 
-**Dutiyampi dhammam saranam gacchāmi.**
+**Dutiyampi dhammam saranam gacchāmi.** \
 A second time, I go to the Dhamma for refuge.
 
-**Dutiyampi sangham saranam gacchāmi.**
+**Dutiyampi sangham saranam gacchāmi.** \
 A second time, I go to the Sangha for refuge.
 
-**Tatiyampi buddham saranam gacchāmi.**
+**Tatiyampi buddham saranam gacchāmi.** \
 A third time, I go to the Buddha for refuge.
 
-**Tatiyampi dhammam saranam gacchāmi.**
+**Tatiyampi dhammam saranam gacchāmi.** \
 A third time, I go to the Dhamma for refuge.
 
-**Tatiyampi sangham saranam gacchāmi.**
+**Tatiyampi sangham saranam gacchāmi.** \
 A third time, I go to the Sangha for refuge.
 
 ### Taking the Eight Precepts
 
-[290]{.pdfpage} **Pānātipātā veramanī sikkhā-padam samādiyāmi.**
+[290]{.pdfpage} **Pānātipātā veramanī sikkhā-padam samādiyāmi.** \
 I undertake the training rule to refrain from taking life.
 
-**Adinnādānā veramanī sikkhā-padam samādiyāmi.**
+**Adinnādānā veramanī sikkhā-padam samādiyāmi.** \
 I undertake the training rule to refrain from stealing.
 
-**Abrahma-cariyā veramanī sikkhā-padam samādiyāmi.**
+**Abrahma-cariyā veramanī sikkhā-padam samādiyāmi.** \
 I undertake the training rule to refrain from sexual intercourse.
 
-**Musāvādā veramanī sikkhā-padam samādiyāmi.**
+**Musāvādā veramanī sikkhā-padam samādiyāmi.** \
 I undertake the training rule to refrain from telling lies.
 
-**Surā-meraya-majja-pamādatthānā veramanī
-sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from intoxicating liquors & 
-drugs that lead to heedlessness.
+**Surā-meraya-majja-pamādatthānā veramanī sikkhā-padam samādiyāmi.** \
+I undertake the training rule to refrain from intoxicating liquors & drugs that lead to heedlessness.
 
-**Vikāla-bhojanā veramanī sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from eating after noon & 
-before dawn.
+**Vikāla-bhojanā veramanī sikkhā-padam samādiyāmi.** \
+I undertake the training rule to refrain from eating after noon & before dawn.
 
-**Nacca-gīta-vādita-visūka-dassanā mālā-gandha-vilepanadhārana-manḍana-vibhūsanatthānā veramanī sikkhā-padam 
-samādiyāmi.**
-I undertake the training rule to refrain from dancing, singing, music, 
-watching shows, wearing garlands, beautifying myself with perfumes 
-& cosmetics.
+**Nacca-gīta-vādita-visūka-dassanā mālā-gandha-vilepanadhārana-manḍana-vibhūsanatthānā veramanī sikkhā-padam samādiyāmi.** \
+I undertake the training rule to refrain from dancing, singing, music, watching shows, wearing garlands, beautifying myself with perfumes & cosmetics.
 
-**Uccāsayana-mahāsayanā veramanī sikkhā-padam samādiyāmi.**
-I undertake the training rule to refrain from high & luxurious seats & 
-beds.
+**Uccāsayana-mahāsayanā veramanī sikkhā-padam samādiyāmi.** \
+I undertake the training rule to refrain from high & luxurious seats & beds.
 
-**Imāni attha sikkhā-padāni samādiyāmi. [x3]**
+**Imāni attha sikkhā-padāni samādiyāmi.** [×3] \
 I undertake these eight precepts.
 
-[BOW THREE TIMES]
+(BOW THREE TIMES)
 
 
 ## Evening chanting
@@ -120,107 +110,99 @@ I undertake these eight precepts.
 
 
 
-[LEADER] Handa mayam Buddhānussati-nayam karoma se:
+*LEADER: Handa mayam Buddhānussati-nayam karoma se:* \
 Now let us recite the guide to the recollection of the Buddha:
 
-**Itipi so bhagavā araham sammā-sambuddho,**
+**Itipi so bhagavā araham sammā-sambuddho,** \
 He is a Blessed One, a Worthy One, a Rightly Self-awakened One,
 
-**Vijjā-carana-sampanno sugato lokavidū,**
-consummate in knowledge & conduct, one who has gone the good 
-way, knower of the worlds,
+**Vijjā-carana-sampanno sugato lokavidū,** \
+consummate in knowledge & conduct, one who has gone the good way, knower of the worlds,
 
-**Anuttaro purisa-damma-sārathi satthā deva
-manussānam buddho bhagavāti.**
-unexcelled trainer of those who can be taught, teacher of human & 
-divine beings; awakened; blessed.
+**Anuttaro purisa-damma-sārathi satthā deva manussānam buddho bhagavāti.** \
+unexcelled trainer of those who can be taught, teacher of human & divine beings; awakened; blessed.
 
 ### Recollection of the Dhamma
 
-
-
-[LEADER] Handa mayam Dhammānussati-nayam karoma se:
+*LEADER: Handa mayam Dhammānussati-nayam karoma se:*
 Now let us recite the guide to the recollection of the Dhamma:
 
-**Svākkhāto bhagavatā dhammo,**
+**Svākkhāto bhagavatā dhammo,** \
 The Dhamma is well-expounded by the Blessed One,
 
-**Sanditthiko akāliko ehipassiko,**
+**Sanditthiko akāliko ehipassiko,** \
 to be seen here & now, timeless, inviting all to come & see,
 
-**Opanayiko paccattam veditabbo viññūhīti.**
+**Opanayiko paccattam veditabbo viññūhīti.** \
 pertinent, to be seen by the observant for themselves.
 
 
 
 ### Recollection of the Sangha
 
-[292]{.pdfpage} [LEADER] Handa mayam Sanghānussati-nayam karoma se:
+[292]{.pdfpage} *LEADER: Handa mayam Sanghānussati-nayam karoma se:* \
 Now let us recite the guide to the recollection of the Sangha:
 
-**Su-patipanno bhagavato sāvaka-sangho,**
+**Su-patipanno bhagavato sāvaka-sangho,** \
 The Sangha of the Blessed One’s disciples who have practiced well,
 
-**Uju-patipanno bhagavato sāvaka-sangho,**
+**Uju-patipanno bhagavato sāvaka-sangho,** \
 the Sangha of the Blessed One’s disciples who have practiced 
 straightforwardly,
 
-**Ñāya-patipanno bhagavato sāvaka-sangho,**
+**Ñāya-patipanno bhagavato sāvaka-sangho,** \
 the Sangha of the Blessed One’s disciples who have practiced 
 methodically,
 
-**Sāmīci-patipanno bhagavato sāvaka-sangho,**
+**Sāmīci-patipanno bhagavato sāvaka-sangho,** \
 the Sangha of the Blessed One’s disciples who have practiced masterfully,
 
-**Yadidam cattāri purisa-yugāni attha purisa-puggalā:**
+**Yadidam cattāri purisa-yugāni attha purisa-puggalā:** \
 i.e., the four pairs—the eight types—of Noble Ones:
 
-**Esa bhagavato sāvaka-sangho—**
+**Esa bhagavato sāvaka-sangho—** \
 That is the Sangha of the Blessed One’s disciples—
 
-**Ahuneyyo pāhuneyyo dakkhineyyo añjali-karanīyo,**
-worthy of gifts, worthy of hospitality, worthy of offerings, worthy of 
-respect,
+**Ahuneyyo pāhuneyyo dakkhineyyo añjali-karanīyo,** \
+worthy of gifts, worthy of hospitality, worthy of offerings, worthy of respect,
 
-**Anuttaram puññakkhettam lokassāti.**
+**Anuttaram puññakkhettam lokassāti.** \
 the incomparable field of merit for the world.
 
 
 ### The Sublime Attitudes
 
+#### Metta – Loving-Kindness
 
-[293]{.pdfpage} (METTA — LOVING-KINDNESS)
-**Sabbe sattā sukhitā hontu.**
+[293]{.pdfpage} **Sabbe sattā sukhitā hontu.** \
 May all living beings be happy.
 
-**Sabbe sattā averā hontu.**
+**Sabbe sattā averā hontu.** \
 May all living beings be free from animosity.
 
-**Sabbe sattā abyāpajjhā hontu.**
+**Sabbe sattā abyāpajjhā hontu.** \
 May all living beings be free from oppression.
 
-**Sabbe sattā anīghā hontu.**
+**Sabbe sattā anīghā hontu.** \
 May all living beings be free from trouble.
 
-**Sabbe sattā sukhī attānam pariharantu.**
+**Sabbe sattā sukhī attānam pariharantu.** \
 May all living beings look after themselves with ease.
 
-(KARUNA — COMPASSION)
-**Sabbe sattā sabba-dukkhā pamuccantu.**
+#### Karuna – Compassion
+
+**Sabbe sattā sabba-dukkhā pamuccantu.** \
 May all living beings be freed from all stress & pain.
 
-(MUDITA — SYMPATHETIC JOY)
-**Sabbe sattā laddha-sampattito mā vigacchantu.**
-May all living beings not be deprived of the good fortune they have 
-attained.
+#### Mudita – Sympathetic Joy
 
-(UPEKKHA — EQUANIMITY)
-**Sabbe sattā kamma-ssakā kamma-dāyādā
-kamma-yonī kamma-bandhū kamma-patisaranā.**
-All living beings are the owners of their actions, heir to their actions, 
-born of their actions, related through their actions, and live dependent 
-on their actions.
+**Sabbe sattā laddha-sampattito mā vigacchantu.** \
+May all living beings not be deprived of the good fortune they have attained.
 
-**Yam kammam karissanti kalyānam vā pāpakam vā tassa dāyādā 
-bhavissanti.**
+#### Upekkha – Equanimity
+
+**Sabbe sattā kamma-ssakā kamma-dāyādā kamma-yonī kamma-bandhū kamma-patisaranā.** \
+All living beings are the owners of their actions, heir to their actions, born of their actions, related through their actions, and live dependent on their actions.
+
+**Yam kammam karissanti kalyānam vā pāpakam vā tassa dāyādā bhavissanti.** \
 Whatever they do, for good or for evil, to that will they fall heir.
