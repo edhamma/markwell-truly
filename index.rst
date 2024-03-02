@@ -41,5 +41,5 @@ Truly Understanding the Teachings of the Buddha
    7-b.md
    final.md
    chanting.md
-   appendices.md
+   appendices.rst
    author.md
