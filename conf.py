@@ -13,12 +13,15 @@ author = 'Anthony Markwell'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+    'myst_parser',
+    'linuxdoc.rstFlatTable',
+]
 #extlinks={'audio':('https://woodem.eu/~eudoxos/mttc-audio/%s','%s')}
 #rst_prolog='''
 #.. role:: pdfpage
 #'''
-myst_enable_extensions=['attrs_inline',]
+myst_enable_extensions=['attrs_inline','linkify']
 
 
 templates_path = ['_templates']
