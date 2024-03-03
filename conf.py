@@ -34,7 +34,7 @@ myst_enable_extensions=['attrs_inline','linkify']
 
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
 
 
