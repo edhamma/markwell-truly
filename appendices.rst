@@ -24,14 +24,14 @@ Four foundations of mindfulness and the five aggregates
    * - Body |br| (kaya-nupassana)
      - Body / physical sensations
      - Body incl. sense spheres (rūpa)
-   * - Feeling  (vedana-nupassana)
+   * - Feeling |br| (vedana-nupassana)
      - Feeling (vedanā)
      - :rspan:`4` Mind (nāma)
    * - 
      - Perception (sañña)
-   * - Mind states  (citta-nupassana)
+   * - Mind states |br| (citta-nupassana)
      - Emotions
-   * - Mind objects  (dhamma-nupassana)
+   * - Mind objects |br| (dhamma-nupassana)
      - Thoughts / Reactions (saṅkhārā)
    * -
      - Consciousness
@@ -110,7 +110,7 @@ Dependent origination
    9,clinging (mine),upādāna
    10,being (my self),bhava
    11,birth (I am),jāti
-   12,"aging, death, sorrow, lamentation, pain, grief, dispair","jarā, maraṇa, soka, parideva, dukkha, domanassa, upāyāsā"
+   12,"aging, death, sorrow, lamentation, pain, grief, despair","jarā, maraṇa, soka, parideva, dukkha, domanassa, upāyāsā"
 
 
 Vipassana insights (vipassanā ñāṇas)
@@ -155,7 +155,7 @@ Vipassana insights (vipassanā ñāṇas)
 
 15. fruition knowledge, **phala ñāṇa**
 
-16. reviewing knowledge,**paccavekkhaṇa ñāṇa**
+16. reviewing knowledge, **paccavekkhaṇa ñāṇa**
 
 Source: *In this very Life*, Sayadaw U Pandita, page 270ff. *The Progress of Insight*; Wisdom Wide and Deep, Shaila Catherine, page 431ff.
 
