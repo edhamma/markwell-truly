@@ -25,6 +25,7 @@ extensions = [
     'myst_parser',
     'linuxdoc.rstFlatTable',
     'sphinx.ext.extlinks',
+    'oembedpy.ext.sphinx',
 ]
 extlinks={'ebookweb':('https://edhamma.github.io/markwell-truly/%s','%s')}
 #rst_prolog='''
@@ -49,6 +50,7 @@ html_css_files=[
 ]
 html_js_files=[
     # 'audio0.js'
+    # 'mixcloud.js'
 ]
 
 html_theme_options = dict(
@@ -84,7 +86,10 @@ latex_engine='lualatex'
 latex_documents=[('index','markwell-truly-understanding.tex',project,author,'manual')]
 latex_elements=dict(
     preamble=r'''
+        \usepackage{qrcode}
         \newcommand{\DUrolepdfpage}[1]{\marginpar{\textcolor{gray}{\scriptsize [#1]}}}
+        \newcommand{\LOCALaudiolink}[1]{ {\hypersetup{hidelinks}\qrcode[height=6em]{#1}}\kern3em\url{#1}\par }
+        \gappto\captionsenglish{\renewcommand\chaptername{Talk}}
     ''',
     fontpkg=r'\usepackage{termes-otf}\usepackage{heros-otf}'
 )

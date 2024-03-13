@@ -2,6 +2,18 @@
 
 ## Morning Chanting
 
+````{only} html
+```{oembed} https://www.mixcloud.com/anthonymarkwell/morning-chanting/
+```
+````
+
+
+```{raw} latex
+
+\LOCALaudiolink{https://www.mixcloud.com/anthonymarkwell/morning-chanting/}
+```
+
+
 [287]{.pdfpage}  **Araham sammā-sambuddho bhagavā.** \
 The Blessed One is Worthy & Rightly Self-awakened.
 
@@ -105,6 +117,18 @@ I undertake these eight precepts.
 
 
 ## Evening chanting
+
+````{only} html
+```{oembed} https://www.mixcloud.com/anthonymarkwell/evening-chanting/
+```
+````
+
+
+```{raw} latex
+
+\LOCALaudiolink{https://www.mixcloud.com/anthonymarkwell/evening-chanting/}
+```
+
 
 ### Recollection of the Buddha
 
