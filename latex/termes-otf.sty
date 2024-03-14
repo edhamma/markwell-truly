@@ -1,0 +1,302 @@
+%% $Id: termes-otf.sty 637 2022-10-17 06:33:15Z herbert $
+%%
+%% This file is distributed under the terms of the LaTeX Project Public
+%% License from CTAN archives in directory  macros/latex/base/lppl.txt.
+%% Either version 1.3 or, at your option, any later version.
+%%
+%
+\ProvidesPackage{termes-otf}[%
+  2022/10/17 v. 0.02 (Herbert Voss) Supports termes fonts for lualatex and xelatex.] 
+
+\RequirePackage{iftex,xkeyval,textcomp}
+
+\newif\iftermes@lining \termes@liningtrue
+\newif\iftermes@tabular \termes@tabulartrue
+\newif\iftermes@usefilenames \termes@usefilenamestrue
+\newif\iftermes@nomath \termes@nomathfalse
+\newif\iftermes@libertinus \termes@libertinusfalse
+
+
+\DeclareOptionX{lining}[true]{\@nameuse{termes@lining#1}}
+\DeclareOptionX{nf}[true]{\@nameuse{termes@lining#1}}
+\DeclareOptionX{lf}[true]{\@nameuse{termes@lining#1}}
+\DeclareOptionX{oldstyle}[true]{\@nameuse{if#1}\termes@liningfalse\else\termes@liningtrue\fi}
+\DeclareOptionX{osf}[true]{\@nameuse{if#1}\termes@liningfalse\else\termes@liningtrue\fi}
+\DeclareOptionX{libertinus}[true]{\@nameuse{termes@libertinus#1}}
+
+\newcommand*\termesMM@feature{}
+\DeclareOptionX{math}[]{\renewcommand*\termesMM@feature{#1}}
+\DeclareOptionX{nomath}[true]{\@nameuse{termes@nomath#1}}
+
+\DeclareOptionX{usefilenames}[true]{\@nameuse{termes@usefilenames#1}}
+
+\DeclareOptionX{tabular}[true]{\@nameuse{termes@tabular#1}}
+\DeclareOptionX{t}[true]{\@nameuse{termes@tabular#1}}
+\DeclareOptionX{proportional}[true]{\@nameuse{if#1}\termes@tabularfalse\else\termes@tabulartrue\fi}
+\DeclareOptionX{p}[true]{\@nameuse{if#1}\termes@tabularfalse\else\termes@tabulartrue\fi}
+
+\newcommand*\termesRM@scale{1}  
+\DeclareOptionX{ScaleRM}{\renewcommand*{\termesRM@scale}{#1}}
+
+\def\termes@defaultfeatures{}
+\DeclareOptionX{defaultfeatures}{\def\termes@defaultfeatures{#1}}
+
+\ProcessOptionsX\relax
+
+\RequirePackage{unicode-math}
+
+\iftermes@lining
+    \def\termes@figurestyle{+lnum}
+\else
+    \def\termes@figurestyle{+onum}
+\fi
+
+\iftermes@tabular
+    \def\termes@figurealign{+tnum} 
+\else
+    \def\termes@figurealign{+pnum} 
+\fi
+
+\ifxetex\XeTeXtracingfonts=1\fi
+\defaultfontfeatures[\rmfamily]{
+     Ligatures = TeX ,
+     SmallCapsFeatures={Letters=SmallCaps},%       \ifluatex,Renderer=Basic\fi}, 
+     \termes@defaultfeatures
+}
+
+\iftermes@usefilenames
+%------------------------   filenames start -------------------------
+
+%texgyretermes-bold.otf		texgyretermes-italic.otf
+%texgyretermes-bolditalic.otf	texgyretermes-regular.otf
+
+
+\setmainfont{texgyretermes}[ 
+  RawFeature     = {\termes@figurealign;\termes@figurestyle},
+  Scale          = \termesRM@scale ,
+  UprightFont    = *-regular,
+  ItalicFont     = *-italic,
+  ItalicFeatures = { SmallCapsFont = *-italic },
+  SlantedFont    = *-regular,
+  SlantedFeatures= {FakeSlant=0.2},
+  BoldFont       = *-bold,
+  BoldFeatures   = { SmallCapsFont = *-bold },
+  BoldItalicFont = *-bolditalic,
+  BoldItalicFeatures = { SmallCapsFont = *-bolditalic },
+  BoldSlantedFont= *-bold,
+  BoldSlantedFeatures= {FakeSlant=0.2, SmallCapsFont = *-bold },
+  SmallCapsFont  = *-regular,
+%  SmallCapsFeatures={RawFeature=+smcp},
+  SmallCapsFeatures={Letters=SmallCaps}, 
+  Extension      = .otf  
+]
+\newfontfamily\termes{texgyretermes}[ 
+  RawFeature     = {\termes@figurealign;\termes@figurestyle},
+  Scale          = \termesRM@scale ,
+  UprightFont    = *-regular,
+  ItalicFont     = *-italic,
+  ItalicFeatures = { SmallCapsFont = *-italic },
+  SlantedFont    = *-regular,
+  SlantedFeatures= {FakeSlant=0.2},
+  BoldFont       = *-bold,
+  BoldFeatures   = { SmallCapsFont = *-bold },
+  BoldItalicFont = *-bolditalic,
+  BoldItalicFeatures = { SmallCapsFont = *-bolditalic },
+  BoldSlantedFont= *-bold,
+  BoldSlantedFeatures= {FakeSlant=0.2, SmallCapsFont = *-bold },
+  SmallCapsFont  = *-regular,
+%  SmallCapsFeatures={RawFeature=+smcp},
+  SmallCapsFeatures={Letters=SmallCaps}, 
+  Extension      = .otf  
+]
+
+
+\newfontfamily\termesOsF{texgyretermes}[
+  RawFeature     = {+onum},
+  Scale          = \termesRM@scale ,
+  UprightFont    = *-regular,
+  ItalicFont     = *-italic,
+  ItalicFeatures = { SmallCapsFont = *-italic },
+  SlantedFont    = *-regular,
+  SlantedFeatures= {FakeSlant=0.2},
+  BoldFont       = *-bold,
+  BoldFeatures   = { SmallCapsFont = *-bold },
+  BoldItalicFont = *-bolditalic,
+  BoldItalicFeatures = { SmallCapsFont = *-bolditalic },
+  BoldSlantedFont= *-bold,
+  BoldSlantedFeatures= {FakeSlant=0.2, SmallCapsFont = *-bold },
+  SmallCapsFont  = *-regular,
+%  SmallCapsFeatures={RawFeature=+smcp},
+  SmallCapsFeatures={Letters=SmallCaps}, 
+  Extension      = .otf  
+]
+
+\newfontfamily\termesTLF{texgyretermes}[
+  RawFeature        = {+tnum;-onum},
+  Scale          = \termesRM@scale ,
+  UprightFont    = *-regular,
+  ItalicFont     = *-italic,
+  ItalicFeatures = { SmallCapsFont = *-italic },
+  SlantedFont    = *-regular,
+  SlantedFeatures= {FakeSlant=0.2},
+  BoldFont       = *-bold,
+  BoldFeatures   = { SmallCapsFont = *-bold },
+  BoldItalicFont = *-bolditalic,
+  BoldItalicFeatures = { SmallCapsFont = *-bolditalic },
+  BoldSlantedFont= *-bold,
+  BoldSlantedFeatures= {FakeSlant=0.2, SmallCapsFont = *-bold },
+  SmallCapsFont  = *-regular,
+%  SmallCapsFeatures={RawFeature=+smcp},
+  SmallCapsFeatures={Letters=SmallCaps}, 
+  Extension      = .otf  
+]
+%------------------------   filenames stop -------------------------
+\else
+%------------------------   symbolic names start -------------------------
+\setmainfont{TeX Gyre Termes}[ 
+  RawFeature        = {\termes@figurealign,\termes@figurestyle},
+  Scale             = \termesRM@scale ,
+  UprightFont       = * Regular,
+  SlantedFont       = * Regular,
+  SlantedFeatures   = {FakeSlant=0.2},
+  ItalicFont        = * Italic,
+  ItalicFeatures    = { SmallCapsFont = * Italic },
+  BoldFont          = * Bold, 
+  BoldFeatures      = { SmallCapsFont = * Bold },
+  BoldItalicFont    = * Bold Italic,
+  BoldItalicFeatures= { SmallCapsFont = * Bold Italic },
+  SmallCapsFont     = * Regular,
+  SmallCapsFeatures = {RawFeature=+smcp},
+  BoldSlantedFont   = * Bold,
+  BoldSlantedFeatures = {FakeSlant=0.2, SmallCapsFont = * Bold },
+  SmallCapsFeatures  = {Letters=SmallCaps}, 
+]
+\newfontfamily\termes{TeX Gyre Termes}[
+  RawFeature        = {\termes@figurealign,\termes@figurestyle},
+  Scale             = \termesRM@scale ,
+  UprightFont       = * Regular,
+  SlantedFont       = * Regular,
+  SlantedFeatures   = {FakeSlant=0.2},
+  ItalicFont        = * Italic,
+  ItalicFeatures    = { SmallCapsFont = * Italic },
+  BoldFont          = * Bold, 
+  BoldFeatures      = { SmallCapsFont = * Bold },
+  BoldItalicFont    = * Bold Italic,
+  BoldItalicFeatures= { SmallCapsFont = * Bold Italic },
+  SmallCapsFont     = * Regular,
+  SmallCapsFeatures = {RawFeature=+smcp},
+  BoldSlantedFont   = * Bold,
+  BoldSlantedFeatures = {FakeSlant=0.2, SmallCapsFont = * Bold },
+  SmallCapsFeatures  = {Letters=SmallCaps}, 
+]
+\newfontfamily\termesOsF{TeX Gyre Termes}[
+  RawFeature        = {OldStyle,Proportional},
+  Scale             = \termesRM@scale ,
+  UprightFont       = * Regular,
+  SlantedFont       = * Regular,
+  SlantedFeatures   = {FakeSlant=0.2},
+  ItalicFont        = * Italic,
+  ItalicFeatures    = { SmallCapsFont = * Italic },
+  BoldFont          = * Bold, 
+  BoldFeatures      = { SmallCapsFont = * Bold },
+  BoldItalicFont    = * Bold Italic,
+  BoldItalicFeatures= { SmallCapsFont = * Bold Italic },
+  SmallCapsFont     = * Regular,
+  SmallCapsFeatures = {RawFeature=+smcp},
+  BoldSlantedFont   = * Bold,
+  BoldSlantedFeatures = {FakeSlant=0.2, SmallCapsFont = * Bold },
+  SmallCapsFeatures  = {Letters=SmallCaps}, 
+]
+
+\newfontfamily\termesTLF{TeX Gyre Termes}[
+  RawFeature        = {Lining,Monospaced},
+  Scale             = \termesRM@scale ,
+  UprightFont       = * Regular,
+  SlantedFont       = * Regular,
+  SlantedFeatures   = {FakeSlant=0.2},
+  ItalicFont        = * Italic,
+  ItalicFeatures    = { SmallCapsFont = * Italic },
+  BoldFont          = * Bold, 
+  BoldFeatures      = { SmallCapsFont = * Bold },
+  BoldItalicFont    = * Bold Italic,
+  BoldItalicFeatures= { SmallCapsFont = * Bold Italic },
+  SmallCapsFont     = * Regular,
+  SmallCapsFeatures = {RawFeature=+smcp},
+  BoldSlantedFont   = * Bold,
+  BoldSlantedFeatures = {FakeSlant=0.2, SmallCapsFont = * Bold },
+  SmallCapsFeatures  = {Letters=SmallCaps}, 
+]
+
+\fi
+%------------------------   symbolic names stop -------------------------
+
+\iftermes@nomath\else
+  \typeout{*************************************^^J%
+           * Using termes math              *^^J%
+           *************************************}%
+  \setmathfont{texgyretermes-math.otf}[AutoFakeBold,RawFeature=\termesMM@feature]
+  \iftermes@libertinus
+    \setmathfont{LibertinusMath-Regular.otf}[AutoFakeBold,RawFeature=\termesMM@feature,
+    	range={\int,\iint,\iiint,\iiiint,\oint,\oiint,\oiiint}]
+  \fi	
+\fi
+
+\def\sufigures{\addfontfeatures{VerticalPosition=Superior}}
+\DeclareTextFontCommand{\textsup}{\sufigures}
+\DeclareTextFontCommand{\textinit}{\termesInitials}%  Initials
+
+\def\Lsup#1{{\addfontfeature{RawFeature=+sups}#1}}
+\def\Lsinf#1{{\addfontfeature{RawFeature=+sinf}#1}}
+\def\Land{{\addfontfeature{RawFeature=+ss06}\&}}
+
+\def\Lcase#1{{\addfontfeature{RawFeature=case}#1}}
+\def\LCASE{\@ifnextchar-\L@CASE\L@@CASE}
+\def\L@CASE-{\addfontfeature{RawFeature=-case}}
+\def\L@@CASE#1{\addfontfeature{RawFeature=+case}\ifx#1+\else#1\fi}
+
+\def\Lfrac#1{{\addfontfeature{RawFeature=+frac}#1}}
+\def\LFRAC{\@ifnextchar-\L@FRAC\L@@FRAC}
+\def\L@FRAC-{\addfontfeature{RawFeature=-frac}}
+\def\L@@FRAC#1{\addfontfeature{RawFeature=+frac}\ifx#1+\else#1\fi}
+
+\def\Lcpsp#1{{\addfontfeature{RawFeature=+cpsp}#1}}
+\def\LCPSP{\@ifnextchar-\L@CPSP\L@@CPSP}
+\def\L@CPSP-{\addfontfeature{RawFeature=-cpsp}}
+\def\L@@CPSP#1{\addfontfeature{RawFeature=+cpsp}\ifx#1+\else#1\fi}
+
+\def\Lss#1#2#3{{\addfontfeature{RawFeature=+ss#1#2}#3}}
+\def\LSS#1#2{\addfontfeature{RawFeature=+ss#1#2}}
+
+\def\Lctosc#1{{\addfontfeature{RawFeature=+c2sc}#1}}
+\def\LCtoSC{\@ifnextchar-\L@CtoSC\L@@CtoSC}
+\def\L@CtoSC-{\addfontfeature{RawFeature=-c2sc}}
+\def\L@@CtoSC#1{\addfontfeature{RawFeature=+c2sc}\ifx#1+\else#1\fi}
+
+\def\Lctosmcp#1{{\addfontfeature{RawFeature={+c2sc,+smcp}}#1}}
+\def\LCtoSMCP{\@ifnextchar-\L@CtoSMCP\L@@CtoSMCP}
+\def\L@CtoSMCP-{\addfontfeature{RawFeature={-c2sc,-smcp}}}
+\def\L@@CtoSMCP#1{\addfontfeature{RawFeature={+c2sc,+smcp}}\ifx#1+\else#1\fi}
+
+\def\Lsalt#1{{\addfontfeature{RawFeature=+salt}#1}}
+\def\LSALT{\@ifnextchar-\L@SALT\L@@SALT}
+\def\L@SALT-{\addfontfeature{RawFeature=-salt}}
+\def\L@@SALT#1{\addfontfeature{RawFeature=+salt}\ifx#1+\else#1\fi}
+
+\def\Lliga#1{{\addfontfeature{RawFeature=+liga}#1}}
+\def\LLIGA{\@ifnextchar-\L@LIGA\L@@LIGA}
+\def\L@LIGA-{\addfontfeature{RawFeature=-liga}}
+\def\L@@LIGA#1{\addfontfeature{RawFeature=+liga}\ifx#1+\else#1\fi}
+
+
+\def\Lhlig#1{{\addfontfeature{RawFeature=+hlig}#1}}
+\def\LHLIG{\@ifnextchar-\L@HLIG\L@@HLIG}
+\def\L@HLIG-{\addfontfeature{RawFeature=-hlig}}
+\def\L@@HLIG#1{\addfontfeature{RawFeature=+hlig}\ifx#1+\else#1\fi}
+
+\def\Ldlig#1{{\addfontfeature{RawFeature=+dlig}#1}}
+\def\LDLIG{\@ifnextchar-\L@DLIG\L@@DLIG}
+\def\L@DLIG-{\addfontfeature{RawFeature=-dlig}}
+\def\L@@DLIG#1{\addfontfeature{RawFeature=+dlig}\ifx#1+\else#1\fi}
+
+\endinput
+
