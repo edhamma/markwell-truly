@@ -54,31 +54,25 @@ html_js_files=[
 ]
 
 html_theme_options = dict(
-  show_nav_level=4,
-  navigation_depth=4,
-  # these unfortunatley don't work as we need
-  # unless the sections are in separate files
-  # see https://github.com/executablebooks/sphinx-book-theme/issues/735
-  show_navbar_depth=10, # zero makes the expand arrow show
-  max_navbar_depth=10,
-#  'html_title':'MTTC',
-  navigation_with_keys=False,
-  # home_page_in_toc=True,
-  # collapse_navbar=False,
   use_download_button=False,
-  footer_content_items=['copyright.html','extra-footer.html'],
+  use_source_button=False,
+  repository_provider='github',
+  repository_url='https://github.com/edhamma/cfitness',
+  use_edit_page_button=True,
+  use_repository_button=True,
+  use_issues_button=True,
 )
 
-show_navbar_depth=4
-max_navbar_depth=5
-show_nav_level=4
-navigation_depth=4
+#show_navbar_depth=4
+#max_navbar_depth=5
+#show_nav_level=4
+#navigation_depth=4
 
-sidebar_collapse=True
-html_show_sphinx=False
-fixed_sidebar=True
-collapse_navbar=True
-navigation_with_keys=False
+#sidebar_collapse=True
+#html_show_sphinx=False
+#fixed_sidebar=True
+#collapse_navbar=True
+#navigation_with_keys=False
 html_title='Truly Understanding …'
 
 
