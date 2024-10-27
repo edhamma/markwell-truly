@@ -15,7 +15,7 @@ Truly Understanding the Teachings of the Buddha
 .. admonition:: About the book
    :class: note
 
-   :pdfpage:`306` This book contains the Dhamma talks given by Anthony Markwell, when he was resident teacher at Wat Kow Tahm Insight Meditation Center in Thailand during Vipassana meditation retreats offered by him.
+   This book contains the Dhamma talks given by Anthony Markwell, when he was resident teacher at Wat Kow Tahm Insight Meditation Center in Thailand during Vipassana meditation retreats offered by him.
 
    Anthony is teaching the Dhamma in a unique way, comprehensive and interlinked, which allows the reader to get a profound understanding of the teachings of the Buddha.
 
