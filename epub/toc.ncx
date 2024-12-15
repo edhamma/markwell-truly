@@ -1,0 +1,722 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="markwell-truly-understanding"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Truly Understanding the Teachings of the Buddha</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Truly Understanding the Teachings of the Buddha</text>
+      </navLabel>
+      <content src="index.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>Day 0 afternoon: Orientation</text>
+      </navLabel>
+      <content src="0-a.xhtml" />  
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>Day 0 afternoon: Orientation</text>
+        </navLabel>
+        <content src="0-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>Meditation</text>
+        </navLabel>
+        <content src="0-a.xhtml#meditation" />  
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>Retreat</text>
+        </navLabel>
+        <content src="0-a.xhtml#retreat" />  
+      </navPoint>
+      <navPoint id="navPoint6" playOrder="5">
+        <navLabel>
+          <text>Guidelines</text>
+        </navLabel>
+        <content src="0-a.xhtml#guidelines" />  
+      </navPoint>
+      <navPoint id="navPoint7" playOrder="6">
+        <navLabel>
+          <text>Silence</text>
+        </navLabel>
+        <content src="0-a.xhtml#silence" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint8" playOrder="7">
+      <navLabel>
+        <text>Day 0 evening: Meditation Instructions</text>
+      </navLabel>
+      <content src="0-b.xhtml" />  
+      <navPoint id="navPoint9" playOrder="7">
+        <navLabel>
+          <text>Day 0 evening: Meditation Instructions</text>
+        </navLabel>
+        <content src="0-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint10" playOrder="8">
+        <navLabel>
+          <text>Sila</text>
+        </navLabel>
+        <content src="0-b.xhtml#sila" />  
+      </navPoint>
+      <navPoint id="navPoint11" playOrder="9">
+        <navLabel>
+          <text>Sitting meditation</text>
+        </navLabel>
+        <content src="0-b.xhtml#sitting-meditation" />  
+      </navPoint>
+      <navPoint id="navPoint12" playOrder="10">
+        <navLabel>
+          <text>First stage: Internalizing awareness – letting go of past and future</text>
+        </navLabel>
+        <content src="0-b.xhtml#first-stage-internalizing-awareness-letting-go-of-past-and-future" />  
+      </navPoint>
+      <navPoint id="navPoint13" playOrder="11">
+        <navLabel>
+          <text>Second  stage:  Feeling  body  sensation  –  letting  go  of  the body</text>
+        </navLabel>
+        <content src="0-b.xhtml#second-stage-feeling-body-sensation-letting-go-of-the-body" />  
+      </navPoint>
+      <navPoint id="navPoint14" playOrder="12">
+        <navLabel>
+          <text>Third stage: Using the breath to maintain awareness</text>
+        </navLabel>
+        <content src="0-b.xhtml#third-stage-using-the-breath-to-maintain-awareness" />  
+      </navPoint>
+      <navPoint id="navPoint15" playOrder="13">
+        <navLabel>
+          <text>The four elements</text>
+        </navLabel>
+        <content src="0-b.xhtml#the-four-elements" />  
+      </navPoint>
+      <navPoint id="navPoint16" playOrder="14">
+        <navLabel>
+          <text>Walking meditation</text>
+        </navLabel>
+        <content src="0-b.xhtml#walking-meditation" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint17" playOrder="15">
+      <navLabel>
+        <text>Day 1, morning</text>
+      </navLabel>
+      <content src="1-a.xhtml" />  
+      <navPoint id="navPoint18" playOrder="15">
+        <navLabel>
+          <text>Day 1, morning</text>
+        </navLabel>
+        <content src="1-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint19" playOrder="16">
+        <navLabel>
+          <text>General outline</text>
+        </navLabel>
+        <content src="1-a.xhtml#general-outline" />  
+      </navPoint>
+      <navPoint id="navPoint20" playOrder="17">
+        <navLabel>
+          <text>Noting, Knowing, Letting go</text>
+        </navLabel>
+        <content src="1-a.xhtml#noting-knowing-letting-go" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint21" playOrder="18">
+      <navLabel>
+        <text>Day 1, afternoon</text>
+      </navLabel>
+      <content src="1-b.xhtml" />  
+      <navPoint id="navPoint22" playOrder="18">
+        <navLabel>
+          <text>Day 1, afternoon</text>
+        </navLabel>
+        <content src="1-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint23" playOrder="19">
+        <navLabel>
+          <text>Awareness of daily activities</text>
+        </navLabel>
+        <content src="1-b.xhtml#awareness-of-daily-activities" />  
+      </navPoint>
+      <navPoint id="navPoint24" playOrder="20">
+        <navLabel>
+          <text>Wise attention</text>
+        </navLabel>
+        <content src="1-b.xhtml#wise-attention" />  
+      </navPoint>
+      <navPoint id="navPoint25" playOrder="21">
+        <navLabel>
+          <text>Labelling technique</text>
+        </navLabel>
+        <content src="1-b.xhtml#labelling-technique" />  
+      </navPoint>
+      <navPoint id="navPoint26" playOrder="22">
+        <navLabel>
+          <text>Karma</text>
+        </navLabel>
+        <content src="1-b.xhtml#karma" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint27" playOrder="23">
+      <navLabel>
+        <text>Day 2, morning</text>
+      </navLabel>
+      <content src="2-a.xhtml" />  
+      <navPoint id="navPoint28" playOrder="23">
+        <navLabel>
+          <text>Day 2, morning</text>
+        </navLabel>
+        <content src="2-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint29" playOrder="24">
+        <navLabel>
+          <text>Refining sitting meditation instructions</text>
+        </navLabel>
+        <content src="2-a.xhtml#refining-sitting-meditation-instructions" />  
+      </navPoint>
+      <navPoint id="navPoint30" playOrder="25">
+        <navLabel>
+          <text>True Vipassana technique</text>
+        </navLabel>
+        <content src="2-a.xhtml#true-vipassana-technique" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint31" playOrder="26">
+      <navLabel>
+        <text>Day 2, afternoon</text>
+      </navLabel>
+      <content src="2-b.xhtml" />  
+      <navPoint id="navPoint32" playOrder="26">
+        <navLabel>
+          <text>Day 2, afternoon</text>
+        </navLabel>
+        <content src="2-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint33" playOrder="27">
+        <navLabel>
+          <text>Feeling</text>
+        </navLabel>
+        <content src="2-b.xhtml#feeling" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint34" playOrder="28">
+      <navLabel>
+        <text>Day 3, morning</text>
+      </navLabel>
+      <content src="3-a.xhtml" />  
+      <navPoint id="navPoint35" playOrder="28">
+        <navLabel>
+          <text>Day 3, morning</text>
+        </navLabel>
+        <content src="3-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint36" playOrder="29">
+        <navLabel>
+          <text>First hindrance kāmacchanda</text>
+        </navLabel>
+        <content src="3-a.xhtml#first-hindrance-kamacchanda" />  
+      </navPoint>
+      <navPoint id="navPoint37" playOrder="30">
+        <navLabel>
+          <text>Second hindrance vyāpāda</text>
+        </navLabel>
+        <content src="3-a.xhtml#second-hindrance-vyapada" />  
+      </navPoint>
+      <navPoint id="navPoint38" playOrder="31">
+        <navLabel>
+          <text>Third hindrance thīnamiddha</text>
+        </navLabel>
+        <content src="3-a.xhtml#third-hindrance-thinamiddha" />  
+      </navPoint>
+      <navPoint id="navPoint39" playOrder="32">
+        <navLabel>
+          <text>Fourth hindrance uddhachakukkucca</text>
+        </navLabel>
+        <content src="3-a.xhtml#fourth-hindrance-uddhachakukkucca" />  
+      </navPoint>
+      <navPoint id="navPoint40" playOrder="33">
+        <navLabel>
+          <text>Fifth hindrance vicikicchā</text>
+        </navLabel>
+        <content src="3-a.xhtml#fifth-hindrance-vicikiccha" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint41" playOrder="34">
+      <navLabel>
+        <text>Day 3, afternoon</text>
+      </navLabel>
+      <content src="3-b.xhtml" />  
+      <navPoint id="navPoint42" playOrder="34">
+        <navLabel>
+          <text>Day 3, afternoon</text>
+        </navLabel>
+        <content src="3-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint43" playOrder="35">
+        <navLabel>
+          <text>First enlightenment factor sati</text>
+        </navLabel>
+        <content src="3-b.xhtml#first-enlightenment-factor-sati" />  
+      </navPoint>
+      <navPoint id="navPoint44" playOrder="36">
+        <navLabel>
+          <text>Third enlightenment factor viriya</text>
+        </navLabel>
+        <content src="3-b.xhtml#third-enlightenment-factor-viriya" />  
+      </navPoint>
+      <navPoint id="navPoint45" playOrder="37">
+        <navLabel>
+          <text>Painful sensations</text>
+        </navLabel>
+        <content src="3-b.xhtml#painful-sensations" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint46" playOrder="38">
+      <navLabel>
+        <text>Day 4, morning</text>
+      </navLabel>
+      <content src="4-a.xhtml" />  
+      <navPoint id="navPoint47" playOrder="38">
+        <navLabel>
+          <text>Day 4, morning</text>
+        </navLabel>
+        <content src="4-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint48" playOrder="39">
+        <navLabel>
+          <text>Second enlightenment factor dhamma vicaya</text>
+        </navLabel>
+        <content src="4-a.xhtml#second-enlightenment-factor-dhamma-vicaya" />  
+      </navPoint>
+      <navPoint id="navPoint49" playOrder="40">
+        <navLabel>
+          <text>Intention</text>
+        </navLabel>
+        <content src="4-a.xhtml#intention" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint50" playOrder="41">
+      <navLabel>
+        <text>Day 4, afternoon</text>
+      </navLabel>
+      <content src="4-b.xhtml" />  
+      <navPoint id="navPoint51" playOrder="41">
+        <navLabel>
+          <text>Day 4, afternoon</text>
+        </navLabel>
+        <content src="4-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint52" playOrder="42">
+        <navLabel>
+          <text>Third foundation of mindfulness citta nupassana</text>
+        </navLabel>
+        <content src="4-b.xhtml#third-foundation-of-mindfulness-citta-nupassana" />  
+      </navPoint>
+      <navPoint id="navPoint53" playOrder="43">
+        <navLabel>
+          <text>Craving</text>
+        </navLabel>
+        <content src="4-b.xhtml#craving" />  
+      </navPoint>
+      <navPoint id="navPoint54" playOrder="44">
+        <navLabel>
+          <text>Ignorance</text>
+        </navLabel>
+        <content src="4-b.xhtml#ignorance" />  
+      </navPoint>
+      <navPoint id="navPoint55" playOrder="45">
+        <navLabel>
+          <text>Aversion</text>
+        </navLabel>
+        <content src="4-b.xhtml#aversion" />  
+      </navPoint>
+      <navPoint id="navPoint56" playOrder="46">
+        <navLabel>
+          <text>Wrong attitude</text>
+        </navLabel>
+        <content src="4-b.xhtml#wrong-attitude" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint57" playOrder="47">
+      <navLabel>
+        <text>Day 5, morning</text>
+      </navLabel>
+      <content src="5-a.xhtml" />  
+      <navPoint id="navPoint58" playOrder="47">
+        <navLabel>
+          <text>Day 5, morning</text>
+        </navLabel>
+        <content src="5-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint59" playOrder="48">
+        <navLabel>
+          <text>Intention and desire</text>
+        </navLabel>
+        <content src="5-a.xhtml#intention-and-desire" />  
+      </navPoint>
+      <navPoint id="navPoint60" playOrder="49">
+        <navLabel>
+          <text>Contentment</text>
+        </navLabel>
+        <content src="5-a.xhtml#contentment" />  
+      </navPoint>
+      <navPoint id="navPoint61" playOrder="50">
+        <navLabel>
+          <text>The five faculties</text>
+        </navLabel>
+        <content src="5-a.xhtml#the-five-faculties" />  
+      </navPoint>
+      <navPoint id="navPoint62" playOrder="51">
+        <navLabel>
+          <text>Balancing the five faculties</text>
+        </navLabel>
+        <content src="5-a.xhtml#balancing-the-five-faculties" />  
+      </navPoint>
+      <navPoint id="navPoint63" playOrder="52">
+        <navLabel>
+          <text>Developing the five faculties</text>
+        </navLabel>
+        <content src="5-a.xhtml#developing-the-five-faculties" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint64" playOrder="53">
+      <navLabel>
+        <text>Day 5, afternoon</text>
+      </navLabel>
+      <content src="5-b.xhtml" />  
+      <navPoint id="navPoint65" playOrder="53">
+        <navLabel>
+          <text>Day 5, afternoon</text>
+        </navLabel>
+        <content src="5-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint66" playOrder="54">
+        <navLabel>
+          <text>First noble truth</text>
+        </navLabel>
+        <content src="5-b.xhtml#first-noble-truth" />  
+      </navPoint>
+      <navPoint id="navPoint67" playOrder="55">
+        <navLabel>
+          <text>Craving, conceit and views</text>
+        </navLabel>
+        <content src="5-b.xhtml#craving-conceit-and-views" />  
+      </navPoint>
+      <navPoint id="navPoint68" playOrder="56">
+        <navLabel>
+          <text>The six sense bases</text>
+        </navLabel>
+        <content src="5-b.xhtml#the-six-sense-bases" />  
+      </navPoint>
+      <navPoint id="navPoint69" playOrder="57">
+        <navLabel>
+          <text>The five aggregates</text>
+        </navLabel>
+        <content src="5-b.xhtml#the-five-aggregates" />  
+      </navPoint>
+      <navPoint id="navPoint70" playOrder="58">
+        <navLabel>
+          <text>Identity view</text>
+        </navLabel>
+        <content src="5-b.xhtml#identity-view" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint71" playOrder="59">
+      <navLabel>
+        <text>Day 6, morning</text>
+      </navLabel>
+      <content src="6-a.xhtml" />  
+      <navPoint id="navPoint72" playOrder="59">
+        <navLabel>
+          <text>Day 6, morning</text>
+        </navLabel>
+        <content src="6-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint73" playOrder="60">
+        <navLabel>
+          <text>Enlightenment factors, bojjhangas</text>
+        </navLabel>
+        <content src="6-a.xhtml#enlightenment-factors-bojjhangas" />  
+      </navPoint>
+      <navPoint id="navPoint74" playOrder="61">
+        <navLabel>
+          <text>Fourth enlightenment factor piti</text>
+        </navLabel>
+        <content src="6-a.xhtml#fourth-enlightenment-factor-piti" />  
+      </navPoint>
+      <navPoint id="navPoint75" playOrder="62">
+        <navLabel>
+          <text>Fifth enlightenment factor passaddhi</text>
+        </navLabel>
+        <content src="6-a.xhtml#fifth-enlightenment-factor-passaddhi" />  
+      </navPoint>
+      <navPoint id="navPoint76" playOrder="63">
+        <navLabel>
+          <text>Sixth enlightenment factor samadhi</text>
+        </navLabel>
+        <content src="6-a.xhtml#sixth-enlightenment-factor-samadhi" />  
+      </navPoint>
+      <navPoint id="navPoint77" playOrder="64">
+        <navLabel>
+          <text>First jhana</text>
+        </navLabel>
+        <content src="6-a.xhtml#first-jhana" />  
+      </navPoint>
+      <navPoint id="navPoint78" playOrder="65">
+        <navLabel>
+          <text>Second jhana</text>
+        </navLabel>
+        <content src="6-a.xhtml#second-jhana" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint79" playOrder="66">
+      <navLabel>
+        <text>Day 6, afternoon</text>
+      </navLabel>
+      <content src="6-b.xhtml" />  
+      <navPoint id="navPoint80" playOrder="66">
+        <navLabel>
+          <text>Day 6, afternoon</text>
+        </navLabel>
+        <content src="6-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint81" playOrder="67">
+        <navLabel>
+          <text>Second noble truth</text>
+        </navLabel>
+        <content src="6-b.xhtml#second-noble-truth" />  
+      </navPoint>
+      <navPoint id="navPoint82" playOrder="68">
+        <navLabel>
+          <text>Third noble truth</text>
+        </navLabel>
+        <content src="6-b.xhtml#third-noble-truth" />  
+      </navPoint>
+      <navPoint id="navPoint83" playOrder="69">
+        <navLabel>
+          <text>Nirvana</text>
+        </navLabel>
+        <content src="6-b.xhtml#nirvana" />  
+      </navPoint>
+      <navPoint id="navPoint84" playOrder="70">
+        <navLabel>
+          <text>Dependent origination</text>
+        </navLabel>
+        <content src="6-b.xhtml#dependent-origination" />  
+      </navPoint>
+      <navPoint id="navPoint85" playOrder="71">
+        <navLabel>
+          <text>Dukkha creating process</text>
+        </navLabel>
+        <content src="6-b.xhtml#dukkha-creating-process" />  
+      </navPoint>
+      <navPoint id="navPoint86" playOrder="72">
+        <navLabel>
+          <text>Dukkha ceasing process</text>
+        </navLabel>
+        <content src="6-b.xhtml#dukkha-ceasing-process" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint87" playOrder="73">
+      <navLabel>
+        <text>Day 7, morning</text>
+      </navLabel>
+      <content src="7-a.xhtml" />  
+      <navPoint id="navPoint88" playOrder="73">
+        <navLabel>
+          <text>Day 7, morning</text>
+        </navLabel>
+        <content src="7-a.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint89" playOrder="74">
+        <navLabel>
+          <text>Seventh enlightenment factor upekkha</text>
+        </navLabel>
+        <content src="7-a.xhtml#seventh-enlightenment-factor-upekkha" />  
+      </navPoint>
+      <navPoint id="navPoint90" playOrder="75">
+        <navLabel>
+          <text>Third jhana</text>
+        </navLabel>
+        <content src="7-a.xhtml#third-jhana" />  
+      </navPoint>
+      <navPoint id="navPoint91" playOrder="76">
+        <navLabel>
+          <text>Fourth jhana</text>
+        </navLabel>
+        <content src="7-a.xhtml#fourth-jhana" />  
+      </navPoint>
+      <navPoint id="navPoint92" playOrder="77">
+        <navLabel>
+          <text>Determined striving</text>
+        </navLabel>
+        <content src="7-a.xhtml#determined-striving" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint93" playOrder="78">
+      <navLabel>
+        <text>Day 7, afternoon</text>
+      </navLabel>
+      <content src="7-b.xhtml" />  
+      <navPoint id="navPoint94" playOrder="78">
+        <navLabel>
+          <text>Day 7, afternoon</text>
+        </navLabel>
+        <content src="7-b.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint95" playOrder="79">
+        <navLabel>
+          <text>The ten pāramī</text>
+        </navLabel>
+        <content src="7-b.xhtml#the-ten-parami" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint96" playOrder="80">
+      <navLabel>
+        <text>Final words</text>
+      </navLabel>
+      <content src="final.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint97" playOrder="81">
+      <navLabel>
+        <text>Chanting</text>
+      </navLabel>
+      <content src="chanting.xhtml" />  
+      <navPoint id="navPoint98" playOrder="81">
+        <navLabel>
+          <text>Chanting</text>
+        </navLabel>
+        <content src="chanting.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint99" playOrder="82">
+        <navLabel>
+          <text>Morning Chanting</text>
+        </navLabel>
+        <content src="chanting.xhtml#morning-chanting" />  
+        <navPoint id="navPoint100" playOrder="82">
+          <navLabel>
+            <text>Morning Chanting</text>
+          </navLabel>
+          <content src="chanting.xhtml#morning-chanting" />  
+        </navPoint>
+        <navPoint id="navPoint101" playOrder="83">
+          <navLabel>
+            <text>Homage</text>
+          </navLabel>
+          <content src="chanting.xhtml#homage" />  
+        </navPoint>
+        <navPoint id="navPoint102" playOrder="84">
+          <navLabel>
+            <text>Going for Refuge</text>
+          </navLabel>
+          <content src="chanting.xhtml#going-for-refuge" />  
+        </navPoint>
+        <navPoint id="navPoint103" playOrder="85">
+          <navLabel>
+            <text>Taking the Eight Precepts</text>
+          </navLabel>
+          <content src="chanting.xhtml#taking-the-eight-precepts" />  
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint104" playOrder="86">
+        <navLabel>
+          <text>Evening chanting</text>
+        </navLabel>
+        <content src="chanting.xhtml#evening-chanting" />  
+        <navPoint id="navPoint105" playOrder="86">
+          <navLabel>
+            <text>Evening chanting</text>
+          </navLabel>
+          <content src="chanting.xhtml#evening-chanting" />  
+        </navPoint>
+        <navPoint id="navPoint106" playOrder="87">
+          <navLabel>
+            <text>Recollection of the Buddha</text>
+          </navLabel>
+          <content src="chanting.xhtml#recollection-of-the-buddha" />  
+        </navPoint>
+        <navPoint id="navPoint107" playOrder="88">
+          <navLabel>
+            <text>Recollection of the Dhamma</text>
+          </navLabel>
+          <content src="chanting.xhtml#recollection-of-the-dhamma" />  
+        </navPoint>
+        <navPoint id="navPoint108" playOrder="89">
+          <navLabel>
+            <text>Recollection of the Sangha</text>
+          </navLabel>
+          <content src="chanting.xhtml#recollection-of-the-sangha" />  
+        </navPoint>
+        <navPoint id="navPoint109" playOrder="90">
+          <navLabel>
+            <text>The Sublime Attitudes</text>
+          </navLabel>
+          <content src="chanting.xhtml#the-sublime-attitudes" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint110" playOrder="91">
+      <navLabel>
+        <text>Appendices</text>
+      </navLabel>
+      <content src="appendices.xhtml" />  
+      <navPoint id="navPoint111" playOrder="91">
+        <navLabel>
+          <text>Appendices</text>
+        </navLabel>
+        <content src="appendices.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint112" playOrder="92">
+        <navLabel>
+          <text>Four foundations of mindfulness and the five aggregates</text>
+        </navLabel>
+        <content src="appendices.xhtml#four-foundations-of-mindfulness-and-the-five-aggregates" />  
+      </navPoint>
+      <navPoint id="navPoint113" playOrder="93">
+        <navLabel>
+          <text>The noble eightfold path, the five faculties, the seven factors of enlightenment</text>
+        </navLabel>
+        <content src="appendices.xhtml#the-noble-eightfold-path-the-five-faculties-the-seven-factors-of-enlightenment" />  
+      </navPoint>
+      <navPoint id="navPoint114" playOrder="94">
+        <navLabel>
+          <text>Right concentration</text>
+        </navLabel>
+        <content src="appendices.xhtml#right-concentration" />  
+      </navPoint>
+      <navPoint id="navPoint115" playOrder="95">
+        <navLabel>
+          <text>Dependent origination</text>
+        </navLabel>
+        <content src="appendices.xhtml#dependent-origination" />  
+      </navPoint>
+      <navPoint id="navPoint116" playOrder="96">
+        <navLabel>
+          <text>Vipassana insights (vipassanā ñāṇas)</text>
+        </navLabel>
+        <content src="appendices.xhtml#vipassana-insights-vipassana-nanas" />  
+      </navPoint>
+      <navPoint id="navPoint117" playOrder="97">
+        <navLabel>
+          <text>The four noble individuals (ariya-puggala)</text>
+        </navLabel>
+        <content src="appendices.xhtml#the-four-noble-individuals-ariya-puggala" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint118" playOrder="98">
+      <navLabel>
+        <text>Anthony Markwell</text>
+      </navLabel>
+      <content src="author.xhtml" />  
+    </navPoint>
+  </navMap>
+</ncx>

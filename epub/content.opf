@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en"
+ unique-identifier="markwell-truly-understanding"
+ prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf"
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:title>Truly Understanding the Teachings of the Buddha</dc:title>
+    <dc:description>unknown</dc:description>
+    <dc:creator>Anthony Markwell</dc:creator>
+    <dc:contributor>unknown</dc:contributor>
+    <dc:publisher></dc:publisher>
+    <dc:rights>2016 Anthony Markwell, 2019 revised edition</dc:rights>
+    <dc:identifier id="markwell-truly-understanding"></dc:identifier>
+    <dc:date>2024-12-15T14:30:12Z</dc:date>
+    <meta property="dcterms:modified">2024-12-15T14:30:12Z</meta>
+    <meta property="ibooks:version"></meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:binding">true</meta>
+    <meta property="ibooks:scroll-axis">vertical</meta>
+    <meta name="cover" content="epub-29"/>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="epub-0" href="0-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="0-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="1-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="1-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-4" href="2-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-5" href="2-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-6" href="3-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-7" href="3-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-8" href="4-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-9" href="4-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-10" href="5-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-11" href="5-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-12" href="6-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-13" href="6-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-14" href="7-a.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-15" href="7-b.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-16" href="appendices.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-17" href="author.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-18" href="chanting.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-19" href="final.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-20" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-21" href="_images/anthony-markwell.jpg" media-type="image/jpeg" />
+    <item id="epub-22" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-23" href="_static/custom.css" media-type="text/css" />
+    <item id="epub-24" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-25" href="_static/file.png" media-type="image/png" />
+    <item id="epub-26" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-27" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-28" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-30" href="epub-cover.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine toc="ncx" page-progression-direction="ltr">
+    <itemref idref="epub-30" />
+    <itemref idref="epub-20" />
+    <itemref idref="epub-0" />
+    <itemref idref="epub-1" />
+    <itemref idref="epub-2" />
+    <itemref idref="epub-3" />
+    <itemref idref="epub-4" />
+    <itemref idref="epub-5" />
+    <itemref idref="epub-6" />
+    <itemref idref="epub-7" />
+    <itemref idref="epub-8" />
+    <itemref idref="epub-9" />
+    <itemref idref="epub-10" />
+    <itemref idref="epub-11" />
+    <itemref idref="epub-12" />
+    <itemref idref="epub-13" />
+    <itemref idref="epub-14" />
+    <itemref idref="epub-15" />
+    <itemref idref="epub-19" />
+    <itemref idref="epub-18" />
+    <itemref idref="epub-16" />
+    <itemref idref="epub-17" />
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="epub-cover.xhtml" />
+    <reference type="toc" title="Table of Contents" href="index.xhtml" />
+  </guide>
+</package>

@@ -1,0 +1,1002 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>13. Day 6, morning &#8212; Truly Understanding …</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=942ed838" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=57b96ea4"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '6-a';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="14. Day 6, afternoon" href="6-b.html" />
+    <link rel="prev" title="12. Day 5, afternoon" href="5-b.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Truly Understanding …</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="0-a.html">1. Day 0 afternoon: Orientation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0-b.html">2. Day 0 evening: Meditation Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-a.html">3. Day 1, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-b.html">4. Day 1, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-a.html">5. Day 2, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-b.html">6. Day 2, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-a.html">7. Day 3, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-b.html">8. Day 3, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-a.html">9. Day 4, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-b.html">10. Day 4, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-a.html">11. Day 5, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-b.html">12. Day 5, afternoon</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">13. Day 6, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-b.html">14. Day 6, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-a.html">15. Day 7, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-b.html">16. Day 7, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="final.html">17. Final words</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chanting.html">18. Chanting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendices.html">19. Appendices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="author.html">20. Anthony Markwell</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/edit/main/6-a.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/issues/new?title=Issue%20on%20page%20%2F6-a.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Day 6, morning</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enlightenment-factors-bojjhangas">13.1. Enlightenment factors, bojjhangas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fourth-enlightenment-factor-piti">13.2. Fourth enlightenment factor piti</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fifth-enlightenment-factor-passaddhi">13.3. Fifth enlightenment factor passaddhi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sixth-enlightenment-factor-samadhi">13.4. Sixth enlightenment factor samadhi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#first-jhana">13.5. First jhana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-jhana">13.6. Second jhana</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="day-6-morning">
+<h1><span class="section-number">13. </span>Day 6, morning<a class="headerlink" href="#day-6-morning" title="Link to this heading">#</a></h1>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fanthonymarkwell%2Fday-5-morning-talk-enlightenment-factors-rapture-tranquility-concentration%2F&amp;hide_cover=1" frameborder="0"></iframe>
+<p>This morning we are going to continue to look at the bojjhangas, the
+enlightenment factors.</p>
+<section id="enlightenment-factors-bojjhangas">
+<h2><span class="section-number">13.1. </span>Enlightenment factors, bojjhangas<a class="headerlink" href="#enlightenment-factors-bojjhangas" title="Link to this heading">#</a></h2>
+<p>We’ve had a look at three of the enlightenment factors already. Energy,
+mindfulness  and  investigation.  Those  three  states  spinning  on  each  other,
+doing the work. Activating awareness in the present, seeing things clearly,
+letting them go – this is the work of the first three enlightenment factors. As
+we develop these enlightenment factors, the other four come to be fulfilled
+or get developed. We don’t become enlightened by reading or studying the
+scriptures or by thinking or by wishing that enlightenment just burst one’s
+mind. There need to be certain conditions in place for this to happen. And
+those conditions are the seven enlightenment factors.</p>
+<p>These seven bojjhangas can be seen in all stages of our Vipassana practice. They don’t fully develop and become quite clear to the mind until the
+stage of the knowledge of the arising of passing away, until we can tune in
+our mind into that frequency of arising and passing, seeing things just arising and passing away, the mind not clinging or holding to anything. At the
+point of contact where consciousness is arising at the six bases, we are able
+to activate awareness so it joins with consciousness. It’s able to know that
+<span class="pdfpage">210</span>  present moment experience.</p>
+<p>The  development  of  the  seven  enlightenment  factors  can  be  looked
+upon as a president with the ministers, like a king or queen surrounded by
+the seven ministers. All those ministers having their functions and their role
+to play within the cabinet, within the structure of the organization.</p>
+<p>Consciousness is just the knowing. That’s all it does. It knows stuff. If
+the mental factors that are surrounding consciousness are the hindrances, for
+example, that’s what we know. That’s what our experience is. If the seven
+enlightenment  factors  surround  the  consciousness  than  our  experience  is
+something  quite  different.  So  here  we  are  developing  these  seven  enlightenment factors. We are practicing, activating our awareness, noting what’s
+there,  stepping  back  from  the  phenomena  –  mental  or  physical,  pleasant
+or  unpleasant  –  and  allowing  it  to  pass  away.  Of  course,  it’s  very  quickly
+replaced  by  a  new  object.  Something  new  comes  to  the  attention  of  consciousness. We are not going into that story. We are not sinking into it, we
+are not appropriating it, we are not holding it. We are letting it go. We are
+knowing them, knowing them clearly.</p>
+<p>These  enlightenment  factors  allow  consciousness  to  know  in  a  very
+particular way. In fact, they surround consciousness to elevate it onto a very
+particular type of knowing, a path knowing, knowing in the manner of the
+noble eightfold path.</p>
+<p>We are practicing the four foundations of mindfulness. It doesn’t mean
+studying or thinking or listening to talks about the practice. It doesn’t mean
+discussing them or arguing about the final points. It means sitting down and
+doing the practice!</p>
+<p>We have to directly and experientially become aware of the four bases
+on which mindfulness is established and we should practice with this awareness not intermittedly, not sporadically, not with gaps but continuously, persistently and unremittingly. And this is exactly what we do in our Vipassana
+meditation.  As  we  are  noting  and  knowing  and  letting  go,  the  first  three
+enlightenment factors are doing their job.</p>
+</section>
+<section id="fourth-enlightenment-factor-piti">
+<h2><span class="section-number">13.2. </span>Fourth enlightenment factor piti<a class="headerlink" href="#fourth-enlightenment-factor-piti" title="Link to this heading">#</a></h2>
+<p><span class="pdfpage">211</span> The fourth enlightenment factor starts to come into our experience. It
+is known as piti. It means rapture. It’s a mental state. It’s a state of mind that
+arises in the meditator when the first three enlightenment factors are up and
+running, when they are working, when we’ve started to note and know and
+let go. This fourth enlightenment factor comes on the scene.</p>
+<p>It has the characteristics of zest, or enthusiasm or intense interest. There
+is also some delight. Some satisfaction and some happiness that comes to the
+practice.  Piti’s  role  in  the  practice  is  to  make  the  practice  interesting  and
+exciting and it certainly does that. Some of you will have started to experience the side effects of piti. When piti is in the mind it also causes the body
+to react in certain ways. Physical sensations arise in the body because of the
+mental state of piti. It’s cause and effect there.</p>
+<p>The  function  of  this  rapture  is  to  fill  the  mind  with  lightness,  to  fill
+it  with  energy  and  agility,  to  make  it  sharp  and  functioning,  to  make  the
+meditation fun and exciting. It’s bringing a deep sense of satisfaction into
+the practice as well. When this rapture occurs, the cause and uncomfortable
+sensations, that were arising in the body – the painful knee, the soar hips, the
+stabbing in the back – those sensations disappear and they are replaced by
+something that is much softer, much gentler, smooth and light.</p>
+<p>Piti manifests in many different ways. For some people it starts to manifest as a lightness throughout the body. You will feel very light, very buoyant in the sitting meditation and also in the walking meditation it happens.
+The body will start to feel like it’s very light, to lift and elevate. Sometimes
+you  might  think  you  are  floating  in  the  air.  It  might  feel  so  light,  that  the
+whole  body  disappears. You  can’t  really  feel  anything.  It  becomes  supercomfortable.  Those  uncomfortable  states  of  just  a  few  days  ago,  kind  of
+disappear when piti is in the mind and is having its effect on the body. Sometimes we feel, when piti is arising, that the body is pushed and pulled. It’s
+being swayed. It starts to rock from front to back, or side to side, sometimes
+it starts to get quite rapid. Sometimes it whirls, it starts to turn, the body is
+turning. The mind is meditating but the body is starting to move around.</p>
+<p>If this starts to happen, make a note of that. If you feel some lightness
+in the body, make a note lightness. If you feel it’s being swayed or rocked,
+<span class="pdfpage">212</span>  make a note of those sensations of rocking. Stay with it, don’t get absorbed
+into the story of piti. Piti can be very enticing. It can be very exciting. When
+it starts to happen we kind of like it. We want it to happen again! Just note
+it when it’s arising. It’s not something that we want to get attached to. It is
+something that we want to develop but we don’t want to be attached. Sometimes it will make us feel as if we are off balance. You are going to tip backwards, you’re going to feel like you’re going to about fall over. You probably
+won’t! Don’t worry. All kind of weird sensation that arise in the body. Sometimes there’s thrills and chills. An excitement. Sometimes the body has little
+twitches, little shakes or you have a little vibration session. It starts tingling
+and shaking and twisting. Sometimes it gets quite violent. It feels like some
+lightening balls are coming through the body. Other times it just feels like
+the body’s just plugged in, a kind of buzz going on. We can think it’s quite
+nice when it starts to happen. There’s flashes like lightening or sparks like
+electricity.  Sometimes  you  feel  so  light,  that  you  feel  like  you’re  floating
+away. Am I still on the ground? It might feel like you are flying. But you do
+feel fantastically comfortable and there is no real wish to change position or
+move. When I ring the bell, «I’m not moving from this (audience laughing).
+This is nice!» «But that nice curry is there for lunch.» – «I don’t care. I’m
+going to meditate through this.» Very comfortable this state of piti.</p>
+<p>The important thing about piti, it gives us great interest in the practice.
+We start to see some results about our hard work. When it starts to happen,
+we feel validated. «Ok, it starts to happen.» Confidence arises, we put in an
+extra five or ten percent effort. And we draw down a lot of extra on that little
+bit of effort.</p>
+<p>The Buddha told us, there is only one cause for rapture: wise attention.
+The arising of rapture is due to bringing in wholesome, rapturous feelings.
+When we are developing rapture, we can do so in a number of ways. Rapture arises when we do our Vipassana practice. Rapture arises when we’re
+contemplating the Buddha, the dhamma and sangha. When we start to think
+about  the  glory  of  the  Buddha,  how  deep  and  wonderful  his  teaching  is,
+when we start to think about all those monks and nuns of hundreds generations that did the practice and passed the teaching down to our current generation, we start to have great respect for what was going on. The teaching
+<span class="pdfpage">213</span>  that we have been exposed to. This can also bring feelings of rapture. I have
+experienced that myself, when going to see an old teacher. Sometimes the
+rapture can be so strong that we start crying. Some of you may have felt it
+in  the  loving  kindness  meditation. The  body  starts  to  feel  so  comfortable,
+it’s just tears of joy, or tears of relief, or tears of release. Sometimes piti can
+become so strong that the whole body starts to lean forward, it starts to go
+down like that, you can see people’s body rocking, backwards and forwards.
+They are not asleep! This is just the effect of piti on the body.</p>
+<p>There  are  many  examples  of  people  who  have  gained  enlightenment
+in the old texts after contemplating the Buddha, dhamma and sangha. This
+is a wonderful way of activating piti in our lives! When we think and reflect
+upon,  when  we  consider  about  the  Buddha,  dhamma  and  sangha  –  that’s
+what we’ve been doing in our evening chanting.</p>
+<p>So this piti, when it starts to arise, make sure you note it. Make sure
+you  note  the  manifestations  of  it,  the  physical  sensations.  Make  sure  you
+note the pleasantness of the experience. Make sure you note the actual mind
+state  itself. Try  to  feel  the  enthusiasm  and  the  buzz,  the  electricity  of  piti
+that’s going through the mind. It will be very clear, the actual sensations and
+a lot of joy happening. Be careful not to attach to this state. Be careful not to
+get addicted to this mind state. Sometimes, it can happen on the first couple
+of days of a retreat, people get very excited and then they spend the next five
+days trying to get it back. Trying hard! Meditating with craving! Meditating
+with wanting! So at this stage of the retreat you should all be letting go your
+resistances, and you should be letting go of the past and the future coming
+into  the  present. When  these  types  of  mind  state  arise,  just  note  them.  Be
+aware that they are there. We are not clinging or holding to them. We don’t
+have to get super excited. Although you can be pleased, knowing that your
+practice is developing along the path, that has been very well mapped out.
+Piti is the fourth enlightenment factor that starts to arise.</p>
+</section>
+<section id="fifth-enlightenment-factor-passaddhi">
+<h2><span class="section-number">13.3. </span>Fifth enlightenment factor passaddhi<a class="headerlink" href="#fifth-enlightenment-factor-passaddhi" title="Link to this heading">#</a></h2>
+<p>Leading  on  from  this  stage  of  piti,  is  the  fifth  enlightenment  factor,
+that is known as
+<em>passaddhi</em>
+which means tranquility. It means coolness of
+the mind, or calmness or stillness. When things become very tranquil, they
+<span class="pdfpage">214</span>  become  extremely  quiet,  extremely  still  like  the  water  on  the  surface  of  a
+lake with no wind thereout. Completely still and silent. The buzz, the electricity of piti starts to give way to this calmness and coolness in the mind. We
+become very, very still. Passaddhi arises when mental agitation or restlessness and worry have been put aside, that fourth hindrance. When we stop
+worrying about things, when we’ve stopped wanting and desiring something
+to happen, then tranquility starts to be activated. The body must be silent and
+still and the mind becomes silent and still as well.</p>
+<p>The  characteristic  of  tranquility  is  to  calm  the  body  and  to  silence
+and tranquilize agitation. As our meditation develops, energy activates our
+awareness,  turns  it  on,  mindfulness  pays  attention  to  the  present  moment,
+penetrating  that  object  that  is  there,  investigation  thoroughly  understands
+what this object is, that causes the letting go to take place, there is a great
+deal of excitement and buzz when this starts to occur, when we start to free
+the mind from sensuality and start to free the mind from the five hindrances,
+freeing the mind from past and future, so we are internalized with the mind
+and  body  states  and  we’re  not  fussed  about  them,  we’re  not  disturbed  by
+them,  we  are  quite  intent  on  just  watching,  the  body  feels  quite  comfortable – then as this starts to happen, the electric buzz of piti starts to decline
+a little bit and tranquility takes its place. They are both still there! They are
+both still functioning but tranquility becomes stronger and so things start to
+become very quiet, very still. Your body won’t need to move at all. You’ll be
+completely silent and completely comfortable. That four elements, that are
+normally changing in their ratios, normally giving some physical sensations
+in  the  body,  will  just  be  completely  equalized.  There  won’t  be  any  tough
+spots in the body, nothing uncomfortable. It will be perfectly calm. And a
+wonderful state of mind, which will allow us to sit for long periods of time.
+Two hours, three hours, comfortably, silent and still, observing, watching,
+noting, knowing and letting go.</p>
+<p>The function of tranquility is to take the heat out of the mind, to suppress  the  heat  of  the  defilements  and  the  heat  of  sensual  objects  that  normally attract us, so the mind can be released from remorse and worry and
+restlessness. When the mind is assaulted by these kinds of harmful states, it
+becomes hot and we become restless. When we become worried – «only two
+<span class="pdfpage">215</span>  days left of the retreat and still I’m not enlightened» – you start to worry,
+to think about that. When we give that up, when we resign ourselves to the
+fact that we are here and we are doing the practice, then tranquility can start
+and  come  to  play.  Tranquility  of  mind  extinguishes  the  heat  and  replaces
+it with a calm coolness. Tranquility is probably the state you recognize as
+being meditation. When you think of meditation, sitting on top of a hill on
+a tropical island, it’s going to be still and quiet and beautiful. It’s probably
+what you are thinking about this state of tranquility. Do a little bit more work
+and it’s yours to experience. That is what meditation is like. It’s a little bit
+more effort and these states start to expose themselves. Often it’s not just the
+effort, but it’s just time – time for aligning all the conditions. We need put
+all the conditions in place and then these mental states start to arise. Without
+them being in place, it will never arise. We’ll just have thinking or exploring
+mentally ourselves, what we imagine those states of mind to be.</p>
+<p>The manifestation of passaddhi is non-agitation of the mind and body.
+Complete stillness, great calm, great clarity, great tranquility. Our mind is
+normally  in  a  state  of  agitation,  jumping  between  the  past  and  the  future,
+going here and there. There isn’t any time for calmness or coolness. There’s
+no silence or peace. There are always thoughts coming into the mind, we’re
+always distracted by external objects, it gets very busy in the head! We normally  don’t  notice  it,  how  busy  things  are  until  we  come  to  a  place  like
+this  and  try  to  watch  it.  Often  it  can  be  quite  horrifying  to  see  the  nature
+of our own mind, to see how it continuously thinks about itself. To watch
+that.  – When  our  mind  becomes  scattered,  it  starts  going  into  the  objects,
+into  the  mental  and  physical  phenomena.  When  it  starts  to  identify  with
+them in some way or enjoy them or delighting them, gain a sense of being
+from them, then we can perform unskillful actions or say unskillful things.
+Speech and actions can lead to remorseful states of mind. We feel, «I probably shouldn’t have said that», we feel we should apologize. We should, if
+we’ve been rude! When the mind gets assaulted by remorse and regret, there
+is no happiness. Tranquility has the ability of removing this remorse and this
+regret, this worry. When we still and calm things down, these states of mind
+evaporate. And then all the ripples in the mind cease. The eye pad becomes
+completely still. You can see very clearly the details of a good photograph.</p>
+<p><span class="pdfpage">216</span>  So this factor of enlightenment follows on rapture, from piti. It arises
+when the previous one is already in place. Thus we need to get excited and
+enthusiastic  about  the  practice.  That  will  lead  us  to  keep  coming  back  to
+the mat. It leads us to keep coming back to the meditation hall or even keep
+coming back to the retreat, month after month. When these different kinds of
+pleasantness start to arise, it can be quite addictive. We want to experience
+that more often. The strongest rapture, the most pervasive rapture is associated with strong tranquility later on. As our rapture becomes stronger, our
+tranquility becomes calmer and stiller. In fact, tranquility starts to overcome
+the rapture. The coolness and calmness of tranquility kind of suppresses the
+electricity  buzz  of  piti.  Both  of  them  are  working  together. They  are  both
+doing their jobs. One is making the mind enthusiastic, one is calming things
+down. They both have a function to play. They both have a role to play in
+balancing and managing the work of consciousness, the work of knowing.</p>
+<p>All  these  mental  factors  have  their  job  to  do. We  have  to  make  sure
+they’re fully developed so they can perform their jobs correctly and properly
+when we need them to. So that they can assist consciousness from letting go
+of the mental and physical phenomena. These are the factors of enlightenment, the bojjhanga, these causative factors that lead to enlightenment.</p>
+<p>Arousing tranquility, we need to reflect on the causes of tranquility. We
+need to have wise attention. We need to take note after a good sitting. After
+a good sitting, we should explore what just happened. What were the conditions that you just put in place? What was the time of the day? Had you eaten
+nothing? Had you eaten little? What posture were you sitting in? How did
+you begin the practice? Did you do some walking meditation or yoga before
+you sat down? Had you been listening to a talk before going into meditation? Explore those events before the state of tranquility arises. And try to
+replicate them, try to copy them so you get the same results. We are putting
+the conditions in place for things to unfold. So there’s a few tips for you, for
+arousing tranquility.</p>
+<p>The first one is, take nutritious and sensible food. Make sure it’s the
+type of food not only satisfying the necessity of eating but it’s suitable for
+you. Make sure it’s actual food that’s been grown and produced and cooked
+properly,  not  only  processed  food  or  food  from  factories.  Try  to  get  food
+<span class="pdfpage">217</span>  from farms and gardens. Here on Koh Phangan, we have a great supply of
+good food. It should be the kind of food, we feel comfortable with. If you
+like to eat garlic and onion and chilli, if that has been your normal eating
+pattern for the last five or ten years, then you feel comfortable with that. It
+won’t be annoying or agitating. If you are used to eating fruit, if you are used
+to eating bland food or flavorless food, you have to organize that when you
+are doing your meditation practice. Make sure the body is comfortable with
+what kind of food it’s receiving. This will make the body calm and comfortable.</p>
+<p>Secondly,  we  should  meditate  in  an  environment  where  the  weather
+is good. We don’t want it too hot, we don’t want it too cold. We don’t want
+to have to wear ski-jackets meditating and big boots when we are walking
+around, but we also don’t want to be sweating continuously. So here on the
+island we get this good weather. It should be comfortable and convenient for
+you to meditate.</p>
+<p>Thirdly, adopt a comfortable posture. To get the mind tranquil, you are
+going to have to make the body tranquil. And this can take time. Don’t pressure yourself to start siting in the full lotus, thinking, I will never meditate
+until I can do this posture. You’re maybe twisting yourself for quite some
+time  before  you  start  meditating.  Make  sure  you  find  yourself  a  comfortable posture. We are used to sitting on a chair. That’s fine. I do recommend
+stretching your hips, your legs so that you can establish a comfortable meditation posture. Get it worked out in your first year of your meditation life so
+that you can become comfortable whenever you want to do a sitting.</p>
+<p>You  need  to  maintain  a  balanced  effort.  We  shouldn’t  become  over
+enthusiastic. Work super-hard, continuously and then stop and just become
+bored and fed up with it and start again with super-enthusiasm. That’s stopping and starting. This is not great. We want to be continuous in our efforts.
+Have a balanced effort.</p>
+<p>We should also avoid bad tempered or rough people if we are tying to
+develop tranquility. You know somebody who’s often excited or animated
+or often gets angry or voices their opinion strongly, people start to mouth
+at  you,  or  talk  rapidly  or  loudly  at  you.  These  are  not  the  kind  of  people
+we  want  to  associate  to  when  we  want  to  develop  tranquility. We  want to
+<span class="pdfpage">218</span>  be around tranquil and calm people. This will be very beneficial for you to
+develop your practice. Avoiding associating with people that are not calm,
+are not balanced, are not stable.</p>
+<p>And lastly, we should incline our mind toward tranquility. We should
+be trying to incline our mind to quietness. While we are in the meditation
+center,  calm  down.  Lower  your  eyes,  lower  your  head.  Come  into  a  quiet
+zone by yourself. You will find that this is very beneficial for your sitting
+practice.  In  particular  we  want  to  be  in  the  present  moment,  tranquil  and
+calm. Holding the mind still and calm.</p>
+<p>So this is the fifth enlightenment factor, passaddhi. Once piti and passaddhi have started to enter in your meditation scene, then the sixth enlightenment factor starts to be developed.</p>
+</section>
+<section id="sixth-enlightenment-factor-samadhi">
+<h2><span class="section-number">13.4. </span>Sixth enlightenment factor samadhi<a class="headerlink" href="#sixth-enlightenment-factor-samadhi" title="Link to this heading">#</a></h2>
+<p>The  sixth  enlightenment  factor  is  known  as
+<em>samadhi</em>.  It’s  normally
+translated as concentration but I prefer the translation of
+<em>stability</em>. Stillness.
+Samadhi is a factor of mind which lands on the object of observation
+and boroughs into it. Mindfulness penetrates the object, samadhi holds the
+mind there, keeps it still, stops the mind from leaving the scene. Mindfulness
+will bring us to the present, hold us in the present, penetrate the object so that
+we are there. When we do this continuously the mind stabilizes in this mode
+of operation. We call that samadhi or stillness or calmness. It’s a quietness
+of mind. It means that the mind sticks on the present object of observation. It
+sinks into it and it remains there with it so that it sees and knows things very
+clearly. Just like with the camera in the back of the truck, when it’s driving
+along and bouncing around, it’s difficult to get a clear image. So too, when
+the mind is still agitated and wandering, unstable with different thoughts and
+memories coming to create ripples on the surface of the water. Samadhi is
+that state of mind which will calm down the different mental factors. It also
+brings them together. It has this quality of pulling things together.</p>
+<p>It has a characteristic of non-dispersal. Things don’t disperse or spreadout.  Things  are  coming  together,  concentrating.  But  this  word  of  concentration  is  often  misunderstood  as  a  state  of  intense  directiveness,  intense
+state of super-focusedness. But samadhi is a bit more than that. Our awareness <span class="pdfpage">219</span>  can still be broad but our attention can be very still at the same time.
+Samadhi has this characteristic of non-scattering. It’s the mental factor that
+pulls the other mental factors in together. It brings the energy and mindfulness and investigation, the rapture and the tranquility, it pulls these mental
+states together, closer to consciousness. So it gets a more unified experience.
+That’s when insight starts to really arise. That’s when we start to see things
+as they really are – Vipassana-knowledge.</p>
+<p>Its  function  is  to  bring  things  together,  collecting  the  mind  together.
+And that’s a translation that is sometimes used for samadhi – collectedness.
+Things are becoming collected.</p>
+<p>There are many different types of samadhi. When we are talking about
+samadhi  today,  we  are  talking  about  the  enlightenment  factor  of  samadhi,
+<em>samadhi bojjhanga</em>. This leads to
+<em>samma-samadhi</em>, or noble right concentration. We  should  not  confuse  samadhi  with  other  types  of  samadhis. There
+are  many  different  samadhis  from  many  different  traditions.  Certainly  the
+hindu traditions have many different types of samadhi. The Buddha’s tradition does as well. In fact we’ll find that at the heart of most spiritual and religious traditions, there is some kind of samadhi involved. Some kind of collectedness, some kind of one-pointedness, some kind of stillness that leads
+to an experience of something. Normally, a unification of mind, normally, a
+oneness are some descriptions. We should be careful that we don’t take the
+definitions of other traditions and try to apply those definitions to the Buddha’s teaching. The definition of samadhi in the Buddha’s teaching is quite
+clear and it doesn’t need to be added to by other religious traditions, whether
+it be the desert fathers from the Christian tradition or by Meister Eckhart,
+or from the Islamic tradition, the Kabhala or from the Jewish tradition, the
+Hindu tradition or any of the indigenous cultures that have their own types
+of samadhi. Putting the mind in a state of internal one-pointedness is not a
+new thing for humans. We’ve been doing it for a very long time. Granted
+in our western culture we don’t pay any attention to it at all. It hasn’t been
+something we’ve been interested in. But that’s changing.</p>
+<p>So be aware when we are talking about samadhi in this context, we are
+talking  about  a  very  specific  definition.  Not  the  kind  of  samadhis  that  are
+available in the various tantric traditions or the other meditative traditions.
+<span class="pdfpage">220</span>  This is a kind of samadhi we find explained in the Pali texts and practiced
+throughout the Buddha’s world.</p>
+<p>The particular type of samadhi that we are after, is one that leads to
+insight. It’s the samadhi which co-joins with our awareness so that we penetrate and  see  the  three characteristics, the three general characteristics of
+all  physical  and  mental  phenomena.  This  is  where  our  samadhi  leads  to.
+This kind of samadhi has its bases in the four foundations of mindfulness.
+If you are developing your concentration based on the four foundations of
+mindfulness using real objects that arise – not conceptual objects, using real
+objects of mental and physical phenomena that are presently arising – then
+we start to develop the samadhi the Buddha is talking about. The samadhi
+that leads us to seeing things clearly, that allows wisdom to arise, wisdom
+into  the  three  characteristics  of  impermanence,  dukkha  and  non-self.  For
+sure it’s wisdom that sees these characteristics, but the proximate cause of
+wisdom is samadhi. And this is the kind of samadhi that we are developing.
+The one that happens quite calmly and automatically whilst we are developing the four foundations of mindfulness. We should take great care in ensuring that our mind is always open and feels spacious. We shouldn’t feel tight.
+It shouldn’t feel condensed, it shouldn’t feel tense, it shouldn’t be dark. It
+should be light, airy, open and spacious the feeling of being concentrated in
+the present moment. This type of concentration leads us to seeing things as
+they really are.</p>
+<p>Of course, there is other types of samadhi practiced in the Buddha’s
+teaching  as  well.  There  are  various  states  of  liberation  and  various  states
+of  concentrations  using  both  ultimate  objects  and  conceptual  objects.  But
+the  particular  type  of  concentration  we  are  talking  about,  as  I  said,  is  this
+enlightenment factor of samadhi.</p>
+<p>Vipassana practice is aimed at developing wisdom and the completion
+of  various  insights,  finally  arriving  at  equanimity,  developing  the  mind  to
+this seventh enlightenment factor. When we’re watching the rise and the fall
+of the abdomen, when we’re being mindful to the process of the movement,
+the  physical  sensations  that  are  arising,  with  each  moment  of  energy  and
+effort, you expand in cultivating the present moment awareness, there is a
+corresponding mental activity of penetrating the object. So we’re activating
+<span class="pdfpage">221</span>  and penetrating the present moment doing this over and over again until the
+mind stabilizes in this mode of watching. This is the type of samadhi that
+we’re after. The type of samadhi that stabilizes and is able to see the rise and
+fall of natural mental and physical phenomena. When it sees in this way, it
+will start to let them go. Wisdom will be activated and the letting go process
+begins. We start to purify our mind and body process. We start to purify the
+moment. We can have a state of purification from moment to moment. Our
+job  is  to  extend  that  out  as  much  as  we  can.  The  mind  becomes  purified
+because the hindrances can’t enter. Those defiled states are having troubles
+entering  our  experience  because  the  enlightenment  factors  have  taken  the
+place of the five hindrances and we’re on the road to development. Samadhi
+has the power to gather together all the other mental factors into a unified
+force  so  that  all  the  factors  can  do  their  job. They  are  all  arising  together
+and they are all ceasing together but they have their own jobs and their own
+functions. And we need to understand what these jobs and functions are and
+to make sure that we are developing them. Quite often people forget a few
+different factors and so we leave a few out. Our enlightenment factors are
+not fully developed and the faculties are not balanced. Wisdom is neglected,
+or extra energy is neglected, awareness is not penetrative, but concentration
+can  be  strong,  the  mind  just  becomes  still,  not  really  knowing  anything.
+Awareness and wisdom is unable to keep up with the state of concentration.
+So the mind just goes…it falls down a well. It stays there in stillness and
+happiness  and  a  little  bit  of  brightness.  It  stays  still  and  calm.  People  can
+become quite attached to this state of mind. In fact we can develop it that
+it becomes a very firm base for the arising of self. «I am a person that gets
+concentrated and here it is.» We can start to use that base of samadhi not for
+awareness and wisdom but as a foundation for the sense of self. We start to
+appropriate and identify with that state of samadhi. We believe we’ve got it!
+We are the owner of samadhi or we can do it or this is my samadhi! We start
+to identify with this state of stillness and calmness.</p>
+<p>When we practice correctly with all the enlightenment factors developing, and when we are looking out for balancing the faculties, our awareness
+and wisdom will be able to keep up with each different stage of samadhi. As
+our samadhi deepens, our awareness and wisdom need to be sharp enough to
+<span class="pdfpage">222</span>  catch up. They need to be able to note and know every stage that the mind
+gets itself into. We need to note and know from the wandering stages, when
+we are in the past and future and wandering and thinking, we need to understand when the body is becoming uncomfortable through those stages, we
+need to understand when piti and tranquility are starting to arise. We need
+to  note  and  know  and  let  go  of  them  even  though  they  are  very  pleasant.
+We  need  to  stay  objective  towards  everything.  If  we  start  to  identify  with
+anything the object gets sucked in and becomes a story of self. So we need
+to  be  highly  alert,  highly  aware.  Be  on  the  lookout  for  any  stages  or  any
+platforms on which the sense of self can establish itself. It’s very tricky this
+craving! It’s been infiltrating and overcoming mental and physical states for
+a long time. So our job is to watch out where it may land even in our states
+of samadhi, even when the mind is becoming still. We still have to have a
+mind  that  is  non-attached.  In  fact,  as  we  develop  and  let  go,  develop  and
+let go, we realize that this is the only way for further development. To let
+go of what has already been achieved. To relinquish and let go and release
+ourselves even from deep states of concentration. This too has to be let go.
+The wisdom tells us. It’s nice, you can stay here for a while, but even this
+needs to be let go of.</p>
+<p>Concentration is the proximate cause for the unfolding of wisdom. And
+once the mind is quiet and still, there is space for wisdom to arise. The gap,
+the space between the knowing and the physical and mental phenomena gets
+wider and wider to the point where we are not attaching to the mental and
+physical states as they arise and pass away.</p>
+<p>The  Buddha  tells  us,  it’s  continuous  wise  attention  that  leads  to  this
+state of samadhi aimed at developing concentration. The aim of concentration is the cause of developing concentration. It works on itself. One stage of
+concentration leads to the next stage. So we have to incline our mind consistently to become stable – not only aware and present, but making our mind
+still and calm as well. And this happens over time. As we start to practice, we
+become more and more skillful at entering the state of calmness, maintaining
+our awareness there, and then, releasing the mind from the calmness, coming
+out. This is developed over time.</p>
+</section>
+<section id="first-jhana">
+<h2><span class="section-number">13.5. </span>First jhana<a class="headerlink" href="#first-jhana" title="Link to this heading">#</a></h2>
+<p><span class="pdfpage">223</span> When these enlightenment factors are starting to be developed in this
+way, the stage of concentration starts to be developed. The eight factor of
+the  noble  eightfold  path,  the  last  factor  is  samma-samadhi.  This
+<em>samma-</em>
+<em>samadhi</em>
+has  four  parts  to  it.  The  first  jhana,  the  second  jhana,  the  third
+jhana  and  the  fourth  jhana.  These  are  stages  of  concentration  or  shall  we
+say, they are stages of letting go. This is how far and how much you have
+been able to let go. That determines those states of mind your samadhi is in.
+We said this week that our meditation practice is just the practice of letting
+go. When we’ve let go of thoughts of sensuality, when we’ve let go of the
+hindrances, when we’ve let go of the painful physical sensations that arise
+in the body, then we start to enter into the first jhana. And the Buddha gives
+us some directions on how to do this and what we should do when this state
+arises. There is a case where,
+<em>«a monk quite secluded from sensual pleasure,
+secluded from unwholesome states enters into and abides in the first jhana
+which has rapture and pleasure born of seclusion accompanied by applied</em>
+<em>and sustained thought.»</em>
+There are a few things in there:</p>
+<ul class="simple">
+<li><p>Secluded from sensual pleasures, secluded from unwholesome states –
+they have been let go of.</p></li>
+<li><p>We develop initial and sustained application – this is direct thought and
+evaluative  thought. We  develop  these  in  our  meditation  practice. We
+are aiming and sustaining our attention on various objects. The «initial thought» to send the mind to the rise and the fall. The «sustained
+thought» to keep our mind right there. Initial and sustained application.</p></li>
+<li><p>Piti starts to arise and happiness starts to arise.</p></li>
+</ul>
+<p>These mind states are found in the first jhana. When this starts to happen,
+we become secluded, secluded from unwholesome states. The Buddha gives
+us instructions on what to do with this:
+<em>«He permeates, pervades, suffuses
+and  fills  this  very  body  with  the  rapture  and  pleasure  born  of  seclusion.
+There is nothing of the entire body unpervaded by the rapture and pleasure</em>
+<em>born of seclusion.»</em>
+So when we notice that rapture or piti and happiness is
+starting  to  arise  in  our  meditation  practice,  the  Buddha’s  directions  are  to
+fill  the  body  with  this  rapture,  fill  the  mind  with  this  rapture.  Completely.
+Permeate, pervade, suffuse and fill – which is not fear these mental states!
+<span class="pdfpage">224</span>  The Buddha is telling us to directly use them, to contemplate it. He gives
+us a simile:
+<em>«Just as if a skilled bathman, or a bathman’s apprentice would
+pour bath powder into a brass basin with a little bit of water, kneading it
+together, sprinkling it with some water and so that the ball of bath powder
+would become wet, it would become saturated, moisture-ladden, permeated</em>
+<em>within and permeated without, but would nevertheless not drip.»</em>
+We got a
+ball of clothe-washing powder, if you like, made into a ball with a little bit
+of water. The ball is wet and moist, but it is not so wet and so moist that it
+falls apart. And that’s what we do with our body at the states of rapture and
+pleasantness when they start to arise. We don’t get all excited about it and
+start identifying with it. We don’t get excited and say, «oh I can do it». We
+don’t  start  to  subjectify  the  experience. And  we  also  don’t  become  scared
+of the experience. When the mind starts to become very, very still and the
+breath gets very, very short, becomes very quick, don’t get any fear. Don’t
+buy into the fear. If fear starts to arise in the mind, make a note of it: ‘worrying, worrying, scared, fear’, whatever word you like to use. Step away from
+that fear and allow the qualities of the samadhi experience to fill the mind
+and body process completely.</p>
+<p>When we do this, we enter into the first jhana, the first jhana experience.  For  us  to  progress  any  further  from  this,  we’re  going  to  have  to  do
+some more letting go. When we let go, when we establish our awareness and
+we get to a stage of momentum where we don’t have to activate our awareness in the present and send it to the abdomen and sustain it at the abdomen
+– we’ve done that practice so often that the mind knows how to do it itself. It
+does it automatically. It can do it by itself to the stage of momentum, where
+we are still and present continuously in the present moment. When we get
+to this stage of observation, it becomes a little bit effortless. We don’t have
+to try so much. This particularly happens on longer retreats. Something after
+a month or two months, when we have been constantly activating and the
+mind knows what it’s doing it becomes automatic.</p>
+</section>
+<section id="second-jhana">
+<h2><span class="section-number">13.6. </span>Second jhana<a class="headerlink" href="#second-jhana" title="Link to this heading">#</a></h2>
+<p><span class="pdfpage">225</span> We start to enter into a deeper state of samadhi, deeper concentration,
+when we let go of the directed and sustained thinking that’s needed to keep
+us in the present moment with the first jhana. When we let them go, then we
+go into a more stable concentration. We enter into the second jhana.
+<em>«And
+furthermore, with the stilling of directed thought and evaluation, he enters
+into and abides in the second jhana which has rapture and pleasure born of</em>
+<em>concentration.»</em>
+A unification of awareness which is free from directed and
+evaluating thought. There is internal assurance or confidence.
+<em>«He permeates, pervades, suffuses and fills this very body with the rapture and pleasure
+born of concentration. There is nothing of the entire body unpervaded by the</em>
+<em>rapture and pleasure born of concentration.»</em></p>
+<p>So in the second jhana we really start to experience samadhi. The rapture  and  pleasure  are  born  of  concentration.  In  the  first  jhana  the  rapture
+and  pleasure  are  born  of  seclusion.  There  is  a  certain  level  of  happiness
+from  being  secluded  from  the  hindrances.  As  soon  as  we  suppress  those
+hindrances our mind completely changes. The hindrances keep us busy with
+non-sense. Sensual desire, aversion, laziness, boredom, restlessness, worry
+and doubt. These five hindrances really block us. The first jhana is an experience of being secluded from them. The second jhana is an experience of
+being  secluded  from  initial  and  sustained  thinking.  We  don’t  need  to  use
+thinking in our meditation anymore. We become still. The mind has become
+concentrated and we start to see things as they really are. At this stage in our
+practice,  the  knowledge  of  arising  and  passing  away  becomes  quite  clear.
+We  see  mental  and  physical  phenomena  arising  and  passing  and  we  don’t
+hold on to them, we don’t identify with them. It’s just stuff that is arising and
+passing – very, very rapidly. And the mind settles in to a very nice state of
+observation. There is an internal assurance about that. We are quite confident
+in what we are doing. Be careful in this stage of the concentration practice,
+that you don’t become addicted to it. The piti can become very strong in this
+stage.  For  many  people  there  is  a  lot  of  light.  Light  is  shining  throughout
+the body coming out of the mind. Things are very calm and very peaceful.
+We feel an enormous amount of faith and confidence in the Buddha and his
+teaching. We think it’s miraculous and wonderful. There is a lot of strength
+<span class="pdfpage">226</span>  in the practice. At this stage we start to think, «well, it’s time to shave the
+head and become a nun or a monk». We start to really enjoy the practice and
+we start to see things as they really are.</p>
+<p>The Buddha gives us a simile. He says,
+<em>«just like a lake with spring
+water, welling up from within, having no inflow from the east, west, north
+or south – the sky is periodically supplying some showers – so that a cool</em>
+<em>font  of  water  would  be  welling  up  from  within.»</em>
+It’s  coming  from  inside.
+There is a cool water coming to fill the lake, so that the cool water comes to
+completely dominate the lake.
+<em>«There being no part of the lake unpervaded
+by the cool water. So too, a monk pervades, suffuses, fills and permeates this</em>
+<em>very  body  with  the  rapture  and  pleasure  born  of  concentration.»</em>
+There  is
+nothing of the entire body unpervaded by this concentration.</p>
+<p>So  this  is  the  second  jhana.  This  is  as  far  as  we  go  today  in  examining  this  enlightenment  factor  of  concentration.  Tomorrow  we’ll  start  to
+have  a  look  at  the  seventh  enlightenment  factor,  the  factor  of  equanimity
+or evenness. This factor of equanimity plays an important role in the third
+jhana and the fourth jhana. We’ll start to see how the development of these
+enlightenment  factors  and  their  completion  and  fulfillment,  fulfill  the  last
+factor of the noble eightfold path. The four jhanas come to completion when
+these  enlightenment  factors  have  been  successfully  developed.  When  the
+enlightenment factors are full and complete and stabilized, the fourth noble
+truth  arises.  It’s  the  path!  The  noble  eightfold  path  arises  in  the  mind  of
+the meditator. Right view is established, right attention is there, previously
+established right speech, right action and right livelihood, we’ve been putting forth effort and mindfulness continuously in the present so that the four
+jhanas start to arise. And this is how the eightfold path develops. We’ll talk
+more about that tomorrow.</p>
+<p>For this morning I think that should be enough for us. We are going to
+continue with some walking mediation.</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="5-b.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>Day 5, afternoon</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="6-b.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">14. </span>Day 6, afternoon</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enlightenment-factors-bojjhangas">13.1. Enlightenment factors, bojjhangas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fourth-enlightenment-factor-piti">13.2. Fourth enlightenment factor piti</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fifth-enlightenment-factor-passaddhi">13.3. Fifth enlightenment factor passaddhi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sixth-enlightenment-factor-samadhi">13.4. Sixth enlightenment factor samadhi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#first-jhana">13.5. First jhana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-jhana">13.6. Second jhana</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Anthony Markwell
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2016 Anthony Markwell, 2019 revised edition.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

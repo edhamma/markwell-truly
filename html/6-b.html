@@ -1,0 +1,1046 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>14. Day 6, afternoon &#8212; Truly Understanding …</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=942ed838" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=57b96ea4"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '6-b';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="15. Day 7, morning" href="7-a.html" />
+    <link rel="prev" title="13. Day 6, morning" href="6-a.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Truly Understanding …</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="0-a.html">1. Day 0 afternoon: Orientation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0-b.html">2. Day 0 evening: Meditation Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-a.html">3. Day 1, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-b.html">4. Day 1, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-a.html">5. Day 2, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-b.html">6. Day 2, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-a.html">7. Day 3, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-b.html">8. Day 3, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-a.html">9. Day 4, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-b.html">10. Day 4, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-a.html">11. Day 5, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-b.html">12. Day 5, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-a.html">13. Day 6, morning</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">14. Day 6, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-a.html">15. Day 7, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-b.html">16. Day 7, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="final.html">17. Final words</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chanting.html">18. Chanting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendices.html">19. Appendices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="author.html">20. Anthony Markwell</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/edit/main/6-b.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/issues/new?title=Issue%20on%20page%20%2F6-b.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Day 6, afternoon</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-noble-truth">14.1. Second noble truth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#third-noble-truth">14.2. Third noble truth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nirvana">14.3. Nirvana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dependent-origination">14.4. Dependent origination</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-creating-process">14.5. Dukkha creating process</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-ceasing-process">14.6. Dukkha ceasing process</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="day-6-afternoon">
+<h1><span class="section-number">14. </span>Day 6, afternoon<a class="headerlink" href="#day-6-afternoon" title="Link to this heading">#</a></h1>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fanthonymarkwell%2Fday-6-afternoon-talk-second-and-third-noble-truths%2F&amp;hide_cover=1" frameborder="0"></iframe>
+<p>This afternoon we’re going to have a look a the second and the third
+noble truths, the noble truth of the cause of suffering, and the noble truth of
+the cessation of suffering.</p>
+<p>Yesterday we had a look at suffering. There is dukkha. We had a look at
+how the Buddha analyzes our mental and physical phenomena. He analyzed
+it into the six sense bases and the five aggregates.</p>
+<p>This afternoon, we’re going to have a look how the second and third
+noble truths are closely related to each other. In fact, one of them, the cause
+of dukkha, and the other, the cessation of suffering, are really two sides of
+one coin. When we look at these noble truths together, we are looking at the
+dependent origination, or paticca samuppada.</p>
+<section id="second-noble-truth">
+<h2><span class="section-number">14.1. </span>Second noble truth<a class="headerlink" href="#second-noble-truth" title="Link to this heading">#</a></h2>
+<p>The Buddha tells us, that the cause of dukkha needs to be seen in order
+to be eradicated. What is the second noble truth of the arising of suffering?
+– It’s just this craving that occurs again and again bound up with delight and
+lust. Seeking delight here and there. Sensual desire, craving for being and
+craving for non-being.</p>
+<p>The cause of suffering is craving for being. It’s just this craving that
+occurs again and again that is bound up with delight and lust. There is some
+<span class="pdfpage">228</span>  delighting. That’s why craving can hit its mark so often. We like it. We enjoy
+being.  It  enjoys  being.  It  loves  to  be  somebody. That’s  why  craving’s  job
+is so easy. It’s delighting in itself. And it’s seeking delight here and there.
+<em>«Now here, now there, seeking fresh delight»</em>
+at the six sense doors. Craving
+is seeking delight. It’s seeking being at the six sense doors.</p>
+<p>Where does this craving arise? Where does it get established? –
+<em>«Wherever  in  the  world  there  is  something  enticing  and  pleasurable,  there  this</em>
+<em>craving arises and is established.»</em>
+Wherever there is an object in which it
+can seek delight, there craving arises. It’s the six sense based nama-rupa.</p>
+<p><em>The ultimate cause of dukkha is ignorance.</em>
+Ignorance of the four noble
+truths. Unawareness of the four noble truths. Not knowing, not understanding  dukkha  and  its  cause,  the  cessation  and  the  path.  Through  not  understanding these four noble truths, beings are bound by the leash of craving to
+samsara. Bound to dukkha.</p>
+<p>If we’re to have the ultimate breakthrough, we’ll need to understand,
+not only dukkha but the cause of it, its fuel, this craving that arises at the
+six sense bases attaching and delighting in the objects. Delighting in them
+means finding some pleasure in the sense of self. It delights in it.</p>
+<p>The practical real cause of dukkha for us, is the sense of self. Whenever there’s a self, there’s dukkha. We have a lot of self, there’s a lot of selfishness in us, then we’re going to have a lot of dukkha. When our sense of
+self reduces, then our dukkha reduces. Reduce it a little bit, dukkha reduces a
+little bit. Reduce it lot, dukkha reduces a lot. Completely reduced, complete
+reduction of dukkha. It depends on how much self we have, how selfish we
+are, how big our ego is. This dependence determines how much dukkha we
+experience. We want to get around with a huge ego and huge sense of self,
+appropriating and identifying everything we come across, dividing the world
+into things that are mine and for me and those that are not, then we experience dukkha in every moment. If we want to have a good life, then we need
+to be aware of this. We need to notice selfishness. It leads to dukkha. Reducing our sense of self leads to a reduction in dukkha. It’s only because there is
+a «me», there is suffering. When there is no «me», then there is no dukkha.
+There is no dukkha that applies to anybody. How can it apply to someone
+that doesn’t exist? It’s only applying when there is a sense of «me». When
+<span class="pdfpage">229</span>  the «me» is gone, dukkha is also gone. It vanishes. It’s a subjective state.</p>
+<p>According  to  our  satipatthana  text,  craving  arises  in  sixty  ways.  It
+arises at the internal base, where it arises in ten different ways. According
+to the six different doors. So in 60 ways craving manages to penetrate the
+mind and body process. A little parasite has 60 ways it can get in in a sense
+experience moment. 60 ways! Our mindfulness needs to be sharp, to be activated to stop this! It’s a very strong and rigid system that’s been set up. It’s
+difficult to turn it off. Craving always hits its mark unless we have supreme
+mindfulness and awareness or we can nail the present moment clearly in our
+mind, see things as they really are and not be trapped or being caught by the
+infection when it comes to us. We can note it, know it and let it go.</p>
+<ul class="simple">
+<li><p>Craving  arises  at  the  internal  bases,  the  eye,  ear,  nose,  tongue,  body
+and mind. We take them as being mine or as being me.</p></li>
+<li><p>Or the external objects that correspond to those doors, the forms, the
+sounds, the smells, the tastes, the touch and the various thoughts and
+ideas that come up. These are the objects of the internal bases. These
+are taken as being for me, or happening to me or being mine.</p></li>
+<li><p>There is also the consciousness. Six different types of consciousness
+that arise. The eye consciousness, the ear consciousness, nose, tongue,
+body consciousness, the mind consciousness. These also are taken as
+happening to me, or that is me or they are mine in some way.</p></li>
+<li><p>The contact that happens between these three that is sometimes appropriated and identified with.</p></li>
+<li><p>Sometimes the feeling that is borne from this, structurally, in the moment, when there is a contact between an external object and an internal base, consciousness arises in this moment of contact, structurally
+there is also feeling arising in that moment, either pleasant or unpleasant. We are taking that as happening to me. This is my feeling. We are
+all over it.</p></li>
+<li><p>Craving enters the perception process as well, the recognition. We pull
+up old data from the past to try and recognize what this experience of
+the moment is. We can identify it, recognize it, perceive it. We build a
+little picture of what’s going on and we start to think about it.</p></li>
+<li><p><span class="pdfpage">230</span> Through thinking at the six doors.</p></li>
+<li><p>Six different types of volitional intention. Volitional intention is a karma process.</p></li>
+<li><p>Six types of craving, six types of initial thought.</p></li>
+<li><p>And six types of sustained, evaluative thoughts.</p></li>
+</ul>
+<p>We  are  trying  to  subectify  anything.  Craving  tries  to  get  whatever  it
+can.  Wherever  there’s  a  gap,  wherever,  there’s  an  unmindful  spot,  that’s
+where craving can enter. It’s like a rock climber, trying to seek any kind of
+refuge it can. Wherever there’s a place, it will grab and get hold of trying to
+keep its existence going. It doesn’t want to let go of the rock face. It wants to
+be. Craving wants to be something. This is its primordial energy. It’s a subjective state of being. It’s trying to hit a mark. That energy is flowing trying
+to manifest as someone, as something. It wants to be something. This time
+around, it’s manifesting as a human! As a being in the sense sphere world. A
+being that manifests with six sense spheres. And it has been finding its mark
+pretty well. For our entire lives, craving has been quite successful in infiltrating the moment and building up an idea. It’s become a solid and enduring idea. Lasting for decades. We’re constantly backing it up, supporting it,
+performing different activities and collecting various things so that we can
+add to or enhance the sense of self, the sense of me, our subjective state, our
+being. We’re adding to it trying to reinforce it! If it gets weakened anyway,
+we feel mortally wounded. Nobody wants to have a weakened sense of self.
+We are striving to make it stronger. The biggest, the strongest, the fastest, the
+richest, the funniest – all those states. We’ve been doing that our whole lives.
+So  in  60  ways,  10  by  six  doors,  craving  has  an  opportunity  to  arise.
+These  are  the  objects  that  we  need  to  be  noting  and  knowing,  we  need  to
+be guarding them from the infiltration of craving to be. We need to get our
+awareness and wisdom operating and spinning so quickly, that wisdom takes
+control  of  the  moments,  the  point  of  contact,  after  point  of  contact,  after
+point of contact. Awareness and wisdom is there, observing, noting, knowing. When it knows, craving can’t land on to that object. Craving can’t do
+with it as it likes. That object has now been clearly seen by Vipassana. It’s no
+longer an object which can be subjectified. It can’t be taken as this is mine,
+this I am, this is my self. It’s out of the game if you like. It’s been neutralized
+<span class="pdfpage">231</span>  by awareness and wisdom in the present moment. There is a little gap, a little
+glitch in the matrix. Our job is to make these often and regular. We need to
+make these gaps more continuous and more sustained. We need to start to
+break down this very well constructed mechanism turning the neutral environment into one that has been subjectified – dukkhering it. Craving dukkhas
+the mind and matter process.</p>
+<p>A fully enlightened being doesn’t have any dukkha. They’ve removed
+dukkha, and yet, they still exist. They still manifest. The mind and body process still continues even though craving has been abandoned, uprooted. So
+it’s possible to still have a mind and body process, still functioning, all the
+enlightened ones, and the Buddha after his enlightenment, existed dukkhafree. And yet he was still able to perform functions, eating, sleeping, talking,
+walking, a lot of teaching, all those things.</p>
+<p>Now the cessation of craving doesn’t mean that we disappear. It means
+that our mind and body process is no longer infected by delusion, by ignorance. Greed, hatred and delusion don’t have much chance of arising because
+there is no self that generates that. It takes a self to be greedy. «I’m greedy, I
+want.» It’s a subjectified state. «I’m not happy with. I’m angry. I don’t know.
+I’m deluded.»</p>
+<p>In 60 ways appropriating and identifying, craving mistakenly subjectifies  the  moment  and  after  this  is  done  for  many  years  or  decades,  there
+comes to be a strong of sense of «I am». A strong sense of being manifests
+within the creature. In the mind and body process it comes to a very strong
+understanding that «I am». A self is established. It seems concrete, it seems
+continuous. We never question it. If someone asks us, if we really are someone, it seems obvious to us. «Of course, I’m someone, what are you talking
+about?» If somebody says, you’re no-one. «No, I am someone, I am». Are
+you? Where are you? I want to see that self. Where is it arising? – It’s just an
+idea! It’s a dream that infects our reality. It turns our experience of objective
+nature, of dhamma, into a subjectified experience. An experience of dukkha.
+When the Buddha is pointing this out, he declares,
+<em>«there is dukkha»</em>. This is
+how it’s happening. Luckily for us, he also says,
+<em>«there is an end of dukkha»</em>.
+There is the experience that is the mind and body process which is not undergoing this process of subjectification. The cessation of dukkha is when craving <span class="pdfpage">232</span>  doesn’t enter this stream of experience. That’s the third noble truth. We’ll
+talk about it very shortly.</p>
+<p>So this thing believes it is someone but it’s just a natural impersonal
+flow of mental and physical phenomena dependently arisen and conditioned.
+Traveling along on its own journey, naturally unfolding. It’s only because we
+don’t see it as it really is, that we come to believe this false story that we’ve
+been told for years and years. Our parents didn’t know and understand, they
+played along with the game. They may have even enhanced craving’s ability
+to get into the stream of our flow.</p>
+<p>We are just quietly appropriating each sense experience moment building  and  constructing  an  ever  more  present  sense  of  I.  We’re  developing
+being.  If  we  are  not  noting  and  knowing,  we’re  developing  being.  Being
+is the cause of dukkha. Once there’s being, there’s birth. When there’s no
+being, there’s no birth. If there’s no personality being constructed than the
+word  «birth»  doesn’t  apply.  Birth  is  a  concept  that  relates  to  a  person.  If
+there’s no person manifest in that moment, then that’s the end of birth. The
+cessation  of  birth.  Birth  doesn’t  take  place.  Here  we’re  talking  about  the
+birth of the self, the birth of the ego. It’s the idea that I am someone. This is
+birth. «I am, I’m here».</p>
+<p>So the heart of the teaching is to destroy this idea of me, and mine and
+I, to destroy this idea of subjectivity and to enter the void of
+<em>suññata</em>, where
+the mind and matter process is not infected by craving to be, the mind and
+matter process is empty of self and things pertaining to self. This is an experience of voidness. That world in which a sense of self doesn’t make itself
+apparent. Empty.</p>
+<p>So that’s the second noble truth, the cause of dukkha. Dukkha is produced  by  this  energy,  this  craving,  this  wanting,  this  strong  desire  to  be
+something. See if you can notice and recognize this in your own mind. See
+if you notice when it wants to be something. Check your activities and the
+motivations for your activities. Why are you performing and doing things? Is
+it to generate a stronger sense of self? Are you deliberately trying to develop
+a personality? If so, have a look what happens when you do that. Understand
+that the development of your personality is the development of your dukkha.
+You’re  actually  helping  craving. You’re  opening  the  door  and  preparing  a
+<span class="pdfpage">233</span>  seat.  «Please  come  in,  sir.  Subjectify  this  experience.  Come  in  and  cause
+some dukkha here. We are all happy here. Come and disturb us!» You don’t
+want to invite craving into your life! When you notice it, make a note ‘craving, wanting, desiring, wanting to be’.</p>
+<p>It seems just like a simple thing. It seems obvious but all of us have
+experienced that craving to be when we have to make that decision what we
+are going to be in our life. What are you going to be when you grow up? We
+think we’ve worked it out in our 20s when we get some job, secure training
+or get a degree of some sort. «Oh, that’s what I am.» But it doesn’t really
+stop. Well into your 40s and 50s, we’re still asking the question, what am
+I going to be when I grow up? – Yes, it doesn’t stop. What am I going to
+be? And then we become someone and you are not really satisfied with that
+identity. You want a new one. Something a little bit more funky. Something
+a little bit cooler. We want to have our own unique niche in the world. Our
+own unique business card. A CV that is wild and interesting. We can show
+others. See, how interesting I am! – It’s all to create a sense of self. We think
+we need to have a strong sense of self to be happy. It’s exactly the opposite.
+The more we think and spin about ourselves, the more dukkha we get.</p>
+<p>We can even cause mental illnesses through obsessive thinking about
+ourselves. Obsessive thinking about the past and ourself – depression states.
+Obsessive thinking and planning and worrying about the future and ourself
+– anxiety states! These states of mind occur because of craving! Because we
+don’t see the trouble that it’s making. Our society and community is telling
+us, you have to become something. You have to be someone. And when we
+don’t know what we want to be, it’s awful. We need to work it out. What am
+I going to be? Everyone is asking you. What are you going to be? You feel
+obliged. What is it that we want to be, that we are searching for? Try to see
+that this energy is craving, is wanting. It really is the cause of dukkha in your
+life. This is the one, that’s causing the problems. When we can drop it and
+let it go, when we don’t have to fulfill its desires, running around trying to
+fulfill craving’s appointments, craving’s wishes – when we’re not doing that,
+then we’re free. We are free in that moment. We are not a slave of craving.
+We’re giving up the job of building our personality and our identity. We’re
+throwing that out of the window.</p>
+<p><span class="pdfpage">234</span>  When  we  note  that  we  start  doing  that,  or  when  we  note,  what  our
+motivation for doing a particular action or saying a particular thing is, when
+we notice that this activity is actually just a self-producing one, then we give
+it up. We let it go. We change our view, or we change our ability to perform
+that function. We change our attitude to performing that function. – We can
+still be helpful, we can still do different things, but we just don’t do it with
+such a sense of self that it causes identity view to arise.</p>
+</section>
+<section id="third-noble-truth">
+<h2><span class="section-number">14.2. </span>Third noble truth<a class="headerlink" href="#third-noble-truth" title="Link to this heading">#</a></h2>
+<p>The third noble truth, the cessation of dukkha or
+<em>dukkha nirodha</em>, is the
+other side of the coin. It’s the end of suffering. That’s what cessation means.
+The finish of it, the end of suffering. Where suffering ceases to exist, where
+it no longer appears.</p>
+<p>The  Buddha  said  repeatedly:
+<em>«Now  as  before  monks,  I  teach  suffer-</em>
+<em>ing and the cessation of suffering»</em>. That’s what the Buddha’s project is. He
+talks a lot about dukkha and the cessation of dukkha. And this is important
+to keep in mind, when we investigate the dhamma, when we investigate the
+Buddha’s teaching for ourselves. When we’re looking to see what the actual
+teaching  is.  He  was  just  focussed  on  these  things,  dukkha  and  the  end  of
+dukkha. That’s all.</p>
+<p>In fact, there was a time, when he was sitting in the forest with a large
+group of monks and he picked up a hand full of leaves and said,
+<em>«monks,
+what is more, the leaves in my hand or the leaves in this great forest?» «Oh,
+venerable, sir, the leaves in this great forest are many. The leaves in your
+hand are so few.» «So it is, monks, so it is. The knowledge I have gained is
+vast, like the leaves in this forest, but the knowledge I’m giving you is just</em>
+<em>this.»</em>
+Dukkha  and  the  end  of  dukkha.  Of  all  the  things  the  Buddha  came
+to  understand  and  came  to  know,  he  taught  us  this:  dukkha,  the  cause  of
+dukkha, the end of dukkha and the path leading to the cessation of dukkha.
+Only this was worthy in his talks.</p>
+<p>These  days  people  want  to  know  what  it  is  that  Buddhism  teaches.
+What  it  teaches  in  relation  to  a  whole  lot  of  modern  day  dilemmas. What
+does  Buddhism  say  about  environmental  warming,  climate  change,  vegetarianism, poverty, global corporate profit taking, same sex marriage, about
+<span class="pdfpage">235</span>  a  whole  range  of  different  things.  The  truth  is,  the  Buddha  didn’t  really
+address any of these subjects. It wasn’t really his thing. We can take some
+ideas  or  interference  from  his  teaching  and  apply  it  to  the  modern  problems but his project was singular. He was only interested in this problem of
+dukkha and he was very keen for us to see it. He had the unique ability to
+teach this dukkha in many different ways to many different people. He had
+the  ability  to  look  at  somebody  and  know  how  their  craving  was  arising,
+where  they  were  stuck.  He  pointed  out  to  them  directly.  There  are  many
+instances of beings becoming enlightened, quite rapidly, after an intervention  from  the  Buddha.  He  was  pointing  out  where  they  had  gone  wrong,
+what they’re not seeing, how they were clouded by the matrix. And so while
+he  doesn’t  deviate  from  his  central  concern,  he  did  approach  the  subject
+from many different angles according to who he was talking about. All these
+angles have been recorded in the old Pali texts. We can investigate them for
+ourselves and see how the Buddha approaches this problem of dukkha and
+the cessation of dukkha. The myriads of ways, the dozens of ways that he
+teaches and tells us to look. If we understand what he is talking about and try
+to follow what he teaches, we will experience for ourselves the nature of the
+dhamma. People have been doing so, for a thousand years. We will also have
+that opportunity. The Buddha’s teaching has one taste. He says,
+<em>«just as the
+ocean has one taste, the taste of salt, so too this dhamma has one taste, the</em>
+<em>taste of release.»</em>
+He wants us to understand dhamma, because he wants us to
+be free from the dukkherizing process. He wants us to be free from dukkha.
+So  what  is  this  third  noble  truth?
+<em>«It  is  just  the  reminderless  fading
+away and ceasing, the giving up, the relinquishing, the letting go and reject-</em>
+<em>ing of that same craving.»</em>
+It’s the giving up of that craving. Whenever you
+notice it arising, make a note and give it up. Start to do the work of cessation. Whenever you notice it, relinquish it. Let it go. Start to walk the path.
+Whenever you note it, there is craving for being starting to play its games
+and becomes strong in your life, you can quickly remove the suffering that
+it causes by just noting and knowing it, stepping back. Don’t be fooled by
+craving any longer. Fading away, ceasing, giving up, relinquishing, letting
+go and rejecting of that craving to be.</p>
+</section>
+<section id="nirvana">
+<h2><span class="section-number">14.3. </span>Nirvana<a class="headerlink" href="#nirvana" title="Link to this heading">#</a></h2>
+<p><span class="pdfpage">236</span> The cessation of dukkha is something that the Buddha called
+<em>nirvana</em>.
+He had a very special name to use for this experience where the mind and
+body  process  are  freed  from  the  craving  to  be.  When  we  free  it  through
+awareness  and  wisdom,  than  that  experience  is  called  nirvana.  Nirvana  is
+not a wonderful palace up in the clouds somewhere.
+<em>Nirvana is the mind and</em>
+<em>body process in the present moment unaffected by craving to be.</em>
+This is how
+cessation takes place. That’s an experience of nirvana in the here and now.
+This  nirvana  the  Buddha  talks  about  in  the  texts,  he  called  it  the  unborn.
+It’s the base, the unborn, the unbecome, the unmade, the unconditioned, the
+transcendent, supra-mundane, ageless, deathless, sorrowless, supreme security from bondage. ‘Bondage’ is the state of being. ‘Supreme security from’
+is letting go that craving. We’ll become secure. We reach the base, nirvana,
+the  unconditioned  element.  It’s  not  impermanent,  it’s  permanent.  It’s  not
+dukkha, it’s the end of dukkha. It’s still impersonal, it’s not a self. It’s still a
+state of impersonality, it’s still a state of non-self. You don’t become all of a
+sudden nirvana. That’s not your true self. It just is what it is. The cessation
+of dukkha.</p>
+<p>Nirvana is also described as the stilling of all formations. The quieting
+of conditioned phenomena. The relinquishing of all acquisitions. All those
+things we come to acquire and get – not only the physical things but also
+our own attributes that we believe we are – it’s the relinquishing of those
+acquisitions. All  the  time  and  all  the  effort  we’ve  gone  into  creating  that
+special identity that we have today, it’s letting all that go and not caring what
+other people think about us letting it go. We’re evolving in a spiritual way.
+We are moving beyond our normal mundane lives of eating, sleeping, seeking sensual pleasures, from one sensuality to another, searching for stuff to
+identify with, to have fun to. As the Buddha says,
+<em>«delighting»</em>. We’re seeking delight. Craving is seeking delight. That’s its speciality. As soon as there
+is something pleasurable, craving rubs its hand and glee, «uhmm, good, I’ll
+get easily in here». There is some delighting, creating a sense of being, right
+here, right now. It loves to be. It loves to develop a self. It likes to work hard
+on it. It loves dukkha. It’s the cause of dukkha.</p>
+<p>Nirvana is described as the destruction of craving and dispassion. So
+<span class="pdfpage">237</span>  there  are  many  passages  throughout  the  Pali  texts  describing  this  state  of
+the bliss of the release when the mind is released from craving. Some of the
+most beautiful are in the old poetry books. The texts of the terigata and teragata verses, of the elder monks and nuns, where they exclaim in beautiful
+poetry the bliss of release. Hundreds of monks and nuns explaining, or exalting their experience of nirvana. All of them using slightly different words to
+explain this experience they uncovered as member of the sangha, the noble
+sangha, the aria-sangha. Beings who have come across the Buddha’s teaching, had enough intelligence to recognize its importance, put aside a period
+of their live to intensify their practice and break through, break through to
+the further shore. And then they tell others about it. Beautiful. Very beautiful. I recommend it if you have a chance to read those texts and translations.
+Nirvana  is  sometimes  referred  to  in  the  texts  as  the  unfashioned.  It
+hasn’t  undergone  fashioning  yet.  Sculpting.  Creating.  It’s  called  the  end.
+The effluentness. The truth, the beyond, the subtle. The very hard to see. The
+permanent.  The  undecaying.  The  surfacelessness.  The  non-objectification.
+Peace. The exquisite. The solace. The exhaustion of craving. The wonderful. The marvelous. The secure. The unafflicted. The passionlessness. The
+pure. The release. Non-attachment. All these terms signify this state which is
+beyond craving, where craving can’t enter. The end of craving. The shelter.
+The harbor. The refuge.</p>
+<p>The  term  «nirvana»  was  actually  a  word  that  the  Buddha  took  from
+the local language. It didn’t have the meaning of the complete cessation of
+dukkha. It had a more simple meaning. It was traditionally used in northern
+India in the fifth century b.c. to describe the going out of a fire. You see the
+candle burning. When the flame gets put out, we say the flame has «nirvanaed». It’s been put out. The flame burns dependent upon conditions. When its
+conditions are in place, a flame burns. When there is wax, and wick and heat,
+when these three are there, the flame burns. When we remove the conditions,
+one of them at least, heat or wick or wax, then the flame disappears. It’s gone
+out. It’s no need for us to ask, «oh, where has the flame gone?» This is not
+what we’re doing. There’s no point in asking «where has it gone?». When
+we blow out the candle, it doesn’t have to go anywhere. It just ceases to be,
+because the conditions that were putting it in place have altered, changed.
+<span class="pdfpage">238</span>  The  conditions  are  impermanent.  The  conditions  on  which  it  stands  have
+changed  and  so  the  flame  changes. And  so  it  is  with  this  sense  of  self.  It
+keeps being generated when the conditions are in place and when the conditions are no longer there – nirvana. Cessation.</p>
+<p>There are two different types of nirvana. There is nirvana here and now
+which  is  experienced  when  mind  and  matter  are  still  functioning,  but  the
+sense of self ceases. That’s the experience of an enlightened person who still
+has a mind and body process that they’re carrying around with them. There
+are  people  in  this  country  who  are  enlightened.  Monks  and  nuns  and  laypeople, who have done the training, experienced it, the mind and body still
+functioning, still talk. You can have a chat with them. There is nobody there.
+No-one home! The mind and body process still activated but they don’t have
+a sense of self. Very interesting to meet these people. If you ever hear about
+them, please go and visit them.</p>
+<p>Then there is the type of nirvana of the enlightened being who passes
+away.  That’s  the  full  nirvana  when  the  mind  and  body  process  no  longer
+breathes or is conscious. The normal word we use, «it dies». The person is
+dead. Death. When an enlightened being dies – it’s a bit of a problem with
+that  sentence  –  because  ‘death’  is  a  word  that  applies  to  a  person  and  if
+you are fully enlightened you are no longer a person. So this concept death
+doesn’t apply anymore. Death doesn’t take place for an enlightened one. The
+elements break apart, and that’s it! Finished.
+<em>«Done is what had to be done.»</em>
+Full final release. Consciousness unencumbered. Unhindered by mind and
+body process. Not attached or identifying with any of it. Free. Released!</p>
+<p>The  Buddha  also  used  the  term
+<em>suññata</em>,  emptiness  or  voidness  to
+describe his most profound and deepest teachings. It means that all things,
+all conditioned and unconditioned things are void of self. Suññata. Sometimes we find in the texts, the monks asking the Buddha, «what state does
+the blessed one normally dwell in these days?» He says, «at the moment I am
+hanging out in suññata.» Voidness, entering the void where there is no self
+or things pertaining to self.</p>
+<p>So  when  we  put  these  two  noble  truths  together,  the  second  and  the
+third, they form two sides of one coin, if you like. Two sides of our experience. We can either be noting and knowing and letting go and experiencing
+<span class="pdfpage">239</span>  the third noble truth, or, we can be appropriating and identifying allowing
+craving in and we experience the cause of dukkha and dukkha. Two experiences. It’s up to us in the present moment to decide which one we’re going
+to experience. It’s your choice. Dukkha or nirvana. One of them is very easy.
+Just lay back and think about yourself all the time. Hmm, just have a nice life
+of dukkha. Lots of problems. The other one is a little more tricky to practice
+but a lot more worthwhile – the cessation of dukkha. We’ll have to do something. We have been working very well this week striving to train our mind
+to be in the present moment so that we can set ourselves up to experience
+this phenomena. We need to put all the conditions in place and there’s quite
+a few of them. We’ve been explaining them to you this week. Putting these
+conditions in place and then to allow the dhamma to unfold.</p>
+</section>
+<section id="dependent-origination">
+<h2><span class="section-number">14.4. </span>Dependent origination<a class="headerlink" href="#dependent-origination" title="Link to this heading">#</a></h2>
+<p>When we join the second noble truth and the third noble truth together,
+it’s referred to as the
+<em>paticca samuppada</em>, or dependent arising or dependent
+origination.
+<em>It’s  the  deepest  and  most  profound  teaching  that  the  Buddha</em>
+<em>offers  us.</em>
+In  fact,  the  venerable Ananda,  the  Buddha’s  close  attendant  for
+25  years,  once  said  to  the  Buddha,
+<em>«ah,  this  dependent  origination  seems
+so clear and easy to understand. I just don’t get it, why beings don’t under-</em>
+<em>stand.»</em>
+The Buddha admonished him:
+<em>«Oh, do not say so Ananda, do not
+say so. This teaching is deep and profound as the ocean is wide. It’s through
+not understanding the dependent origination that beings are bound to sam-</em>
+<em>sara.» And this is the central teaching we need to understand.</em>
+It’s the key for
+unlocking our experience of dhamma.</p>
+<p>It teaches us, how the me, or the I arises in the present moment or how
+the  me  or  the  I  ceases
+<em>in  the  present  moment</em>.  It’s  a  very  succinct,  a  very
+short but also very illuminating teaching. It has 12 forms, 12 different bases
+on  which  the  sense  of  self  arises. And  these  12  bases  or  these  12  conditioned things are linked together by conditioning processes. They are linked
+together by what we call the
+<em>idappaccayatā</em>, or specific conditionality. Each
+link conditioning the next.
+<em>«When this is, that comes to be. With the arising
+of this, that arises. When this ceases, that ceases. With the cessation of this,</em>
+<em>that ceases.»</em>
+The things are conditioned. When the conditions are in place
+<span class="pdfpage">240</span>  they arise. When the conditions are no longer in place, they cease to exist.
+This is the great teaching that the Buddha uncovered. Conditionality. He saw
+how the self is a conditioned phenomena. Arising, when there is ignorance
+and  delusion,  and  ceasing,  when  there  is  full  awareness  and  wisdom.  He
+explains this in a little road map. You can often see visual representations of
+the paticca samuppada. Sometimes it’s in a chain of twelve links. I hope you
+had a chance to read the notice board down there. Dependent origination is
+explained there, both in the forward process and in the reverse process, in
+the dukkha creating process and in the dukkha ceasing process. It’s one coin,
+with dukkha on the one side and nirvana on the other. It’s either or. When
+you flip it, it doesn’t land on its edge. We’re either dukkhering ourselves or
+we’re reaching cessation in the present moment.</p>
+</section>
+<section id="dukkha-creating-process">
+<h2><span class="section-number">14.5. </span>Dukkha creating process<a class="headerlink" href="#dukkha-creating-process" title="Link to this heading">#</a></h2>
+<p>It starts with ignorance. With ignorance as condition volitional formations  come  to  be.  The  first  four  items  of  the  dependent  origination,  ignorance, conditional formations, consciousness and nama-rupa. In the forward
+direction, if there is ignorance the sankharas or the conditional formations,
+the intentional structures condition consciousness and nama-rupa. They set
+that  ignorance  is  conditioning  the  consciousness
+<em>in  the  present  moment</em>
+if
+we’re  unaware.  If  we’re  unaware,  the  consciousness  that  arises  at  the  six
+sense bases has already been infected by ignorance. Just the fact that we’re
+unaware of that moment, means that we are ignorant in that moment. When
+ignorance is present, then – consciousness and nama-rupa, which are stuck
+in a vortex conditioning each other arising at the six sense bases – this consciousness  and  nama-rupa  vortex  becomes  conditioned  by  ignorance,  and
+then,  when  it  squeezes  out  through  the  six  sense  bases  somewhere,  the
+moment of contact is infected. Contact is there. We can note that contact and
+see it happening in real time. We can see the infection taking place if there’s
+ignorance.
+<em>This  happens  in  a  snapshot,  this  is  not  a  temporal  movement.</em>
+Visual representations of the dependent origination appear to show it traveling through time from one link to the next link and from the next link to
+another one. But it’s more useful to look at these 12 links stacked upon each
+other, based upon each other. When we start stacking, they start growing.</p>
+<p><span class="pdfpage">241</span>  If we’ve been unable to note in the present moment and unawareness
+is in that moment, ignorance is in that moment, then the consciousness and
+nama-rupa which arise at the six sense bases become infected. The feeling
+that arises joined in this moment becomes a feeling of somebody. A sense of
+«I» enters in, a sense of «me» enters in into the scene. «It’s my feeling.» That
+feeling starts to condition the mind. It conditions craving.</p>
+<p>When  craving  comes  to  be,  clinging  comes  to  be.  With  clinging  as
+condition, being. With being as condition, birth. The next four links show
+the gradual concentration of the sense of me and mine. The «me» becoming
+more and more solid. The craving is just taking things as «me» and «mine»,
+happening to me and for me. It does that so rapidly that it builds up a more
+concrete  sense  of  subjectivity.  Clinging,  upadana,  we  come  to  attavada  or
+the view of self arises. The conceit «I am» starts to arise. It starts to take life,
+it believes it’s alive. The subjectivity is arising. A person is manifesting in
+the present moment. Clinging then leads to being, the full sense of self and
+then a whole history gets mapped out. Birth, that’s the past. Death, that’s the
+future. These concepts relate to the person that has just been established in
+that moment.</p>
+<p>With ignorance as condition, volitional formations. With volitional formations as condition, consciousness. With consciousness as condition, mind
+and matter. With mind and matter as condition, the six sense bases. And the
+six sense bases are infected, the contact is infected, feeling is infected, and
+then craving, clinging and being come to be. Finally it results in birth, the
+establishment of an identity and a personality and then sorrow, lamentation,
+pain, grief and despair. All those states of suffering come into being – just
+because we’ve been unable to note and know in the present moment. That
+moment gets infected and becomes a self-moment adding to the pile of self
+that’s  being  created  along  the  way,  adding  to  the  illusion,  reinforcing  the
+illusion.</p>
+</section>
+<section id="dukkha-ceasing-process">
+<h2><span class="section-number">14.6. </span>Dukkha ceasing process<a class="headerlink" href="#dukkha-ceasing-process" title="Link to this heading">#</a></h2>
+<p>On the other side, if we can be aware of the present moment, what our
+Vipassana meditation is all about, if we can note and know rapidly and continuously, if we can increase our noting speed and the number of objects we
+<span class="pdfpage">242</span>  can note, we’ll start to build up a continuous field of awareness and wisdom.
+So  any  time  a  door  opens,  we’re  knowing  what’s  there.  We’re  seeing  it
+clearly. Ignorance is ceasing in that moment. Unawareness is being removed
+and awareness is replacing it. There is awareness of the moment. When this
+happens, ignorance is gone. It doesn’t condition the volitional formations.
+When those volitional formations are no longer functioning, either as greed,
+hatred or delusion or, on the more positive side, as non-greed, non-hatred,
+non-delusion, when this conditioning process is not taking place, consciousness  doesn’t  get  conditioned  by  ignorance.  The  ‘consciousness  and  mind
+and matter’-vortex that arises at the six sense doors, has not been infected by
+ignorance. That moment is clear, unsubjectified, purified if you like. It’s an
+experience of dhamma. The contact point seen very clearly – no self there!
+It’s a moment of freedom. We’ve noted the point of contact at the six sense
+doors.  The  feeling  that  arises,  the  pleasantness  or  unpleasantness,  is  just
+feeling. It doesn’t belong to anyone. It’s not taken as being good or bad. It
+ceased to have the opportunity to condition the mind. The pleasantness or
+unpleasantness is still there, but it has lost its conditioning ability because
+it’s seen clearly for what it is. It’s not going to be appropriated and identified
+with. That moment is a moment of knowing, it’s a moment of clear seeing.
+It’s  a Vipassana  moment.  Feeling  doesn’t  get  taken,  craving  doesn’t  arise.
+Craving ceases, clinging ceasing, being ceases and so does birth, old age,
+sickness and death. The whole string of dukkha ceases. Sorrow, lamentation,
+pain,  grief,  despair,  depression,  anxiety,  worry,  tension  –  all  these  things
+cease in that moment. All these things are concepts that relate to a person
+and since there is nobody in that moment, those concepts cease to have any
+validity. They don’t exist.</p>
+<p>All we have to do, is to extend this from moment to moment. You can
+catch it for a second, can we do it for two seconds, three seconds, hold it
+back, keep noting and knowing, keep noting and knowing, make it continuous. Don’t allow any gaps to occur. See how long ignorance can cease for
+in the moment. See if you can have that experience of the mind and matter
+process which is independent of ignorance. Which is not being conditioned
+by ignorance, which is, in fact, conditioned by wisdom, by true knowledge.
+When we experience this in the present moment, this is the third noble
+<span class="pdfpage">243</span>  truth. Cessation. The mind and body process ceases. And the whole edifice
+collapses in that moment. Our job as meditators is to make sure that we can
+bring as many of these moments as we can into our experience. The more we
+can do it, the more we start to alter our understanding of the mind and body
+process. You’ll start to see it more and more clearly. The things that used to
+worry us and excite us before, completely loose our attention. Just like when
+we used to play with dolls or little trucks in the sand pit, when we were very
+small children, we’ve stopped doing that now because it doesn’t have any
+interest for us anymore. No longer interesting to play those games. And so it
+is with developing a sense of self or developing an identity view. It no longer
+has any interest for us. We just see it as a useless activity while others get a
+lot of delight from it. We’re just not interested in that anymore. We see the
+pointlessness of it, we see the futility of it.</p>
+<p>We can break this casual process at the point of contact, if our awareness and wisdom is clear. When consciousness and the mental factors arise
+at  the  six  sense  bases,  this  is  where  we  have  to  note.  If  we  can  be  noting
+at the point of contact continuously, repeatedly, unremittingly, then we can
+have some possibility of reaching the cessation stage. This is our job. This
+is what our meditation practice is all about. In fact, this is the role of human
+evolution. This  is  what  has  to  be  done.  Eventually,  all  beings  will  escape
+samsara through this process of letting go of the sense of self, freeing themselves. All of us will have to go through it at some point. Maybe this week,
+this year or this lifetime or some other time. But this is our destiny, this is
+our evolution as a species. This is how we move beyond the material realm
+and enter into the spiritual realm of the enlightened ones. The realm of the
+beings who are free from dukkha.</p>
+<p>For now, it’s important for us to recognize that we may break this causal
+process and the practicing of satipatthana is the way out of the process that
+the Buddha so eloquently described. You just need to examine it closely, not
+the books, we need to examine our own mind. We need to see if the map is
+reproduced in our own mind and body process. When we see things as they
+really are in the present moment, it blocks defilement from arising. It’s like
+we’ve neutralized the field of objects. None of them can be used as a sense
+of self, as a base for the sense of self. Liking and disliking disappear, judging <span class="pdfpage">244</span>  and comparing – all gone! The knowledge of arising and passing away,
+it’s not the permanent removal of defilement but it is a little bit of a taste of
+the deathless state. When we can sit observing the mind, the body and mind
+process arising and passing at the six sense doors, uninterruptedly, without
+us subjectifying the process, then we have a taste of the deathless state. A
+taste of nature. It’s not full nirvana but it’s something getting close to it.</p>
+<p>I like to read you now part of the Kaccayanagotta sutta: Kaccayanagotta, just the name of another monk, once visited the Buddha. This text has
+a special place in the teaching of the Buddha being used by one of the major
+traditions, the Majjhimas. It’s the central text in their teaching of emptiness
+and non-self.</p>
+<p>Dwelling  at  Savatthi…  Then  Ven.  Kaccayana  Gotta  approached  the
+Blessed One and, on arrival, having bowed down, sat to one side. As he was
+sitting there he said to the Blessed One:
+<em>«Lord, ‘Right view, right view,’ it is
+said. To what extent is there right view?»</em></p>
+<p><em>«By and large, Kaccayana, this world it depends upon a duality, upon
+the notion of being and upon the notion of non-being. But when one sees the</em>
+<strong>origin</strong>
+<em>of the world as it actually is with correct wisdom – (the second noble
+truth, the arising of dukkha) – there is no notion of non-being/non-existence</em>
+<em>in regard to the world. When one sees the</em>
+<strong>cessation</strong>
+<em>of the world as it actually is with correct wisdom, there is no notion of being/existence in regard
+to this world.</em></p>
+<p><em>By and large, Kaccayana, this world is shackled by attachments, clingings and adherence. But this one [with right view] does not get involved with
+or  cling  to  these  attachments,  clingings,  and  adherence;  he  does  not  take
+a stand about ‘my self.’ He has no uncertainty or doubt that what arises is
+only suffering arising; what ceases is only suffering ceasing. His knowledge
+about this is independent of others. It’s to this way, Kaccayana, that there is
+right view.</em></p>
+<p><em>‘Everything exists’: That is one extreme. ‘Everything doesn’t exist’: That
+is a second extreme. Avoiding these two extremes, the Tathagata teaches the
+dhamma via the middle: With ignorance as condition, volitional formations.
+With volitional formations as condition, consciousness. With consciousness
+as condition, nama-rupa. With nama-rupa as condition, the six sense bases.
+<span class="pdfpage">245</span>  With  the  six  sense  bases  as  condition,  contact.  With  contact  as  condition,
+feeling. With feeling as condition, craving. With craving as condition, clinging. With clinging as condition, being. With being as condition, birth. With
+birth as condition, aging, death, sorrow, lamentation, pain, distress, despair</em>
+<em>come to be.</em>
+<strong>Such is the origination</strong>
+<em>of this entire mass of suffering.</em></p>
+<p><em>But  with  the  remainderless  fading  away  and  cessation  of  ignorance
+comes  cessation  of  volitional  formations.  With  the  cessation  of  volitional
+formations, cessation of consciousness. With the cessation of consciousness,
+cessation of nama-rupa. With the cessation of nama-rupa, cessation of the
+six sense bases. With the cessation of the six sense bases, cessation of contact. With the cessation of contact, cessation of feeling. With the cessation
+of feeling, cessation of craving. With the cessation of craving, cessation of
+clinging.  With  the  cessation  of  clinging,  cessation  of  being.  With  the  cessation of being, cessation of birth. With the cessation of birth, cessation of</em>
+<em>aging,  death,  sorrow,  lamentation,  pain,  distress  and  despair.</em>
+<strong>Such  is  the</strong>
+<strong>cessation</strong>
+<em>of this entire mass of suffering.»</em></p>
+<p>So this formula, this dependent origination is a map that shows us very
+clearly our options in the present moment. We are either dealing with ignorance, craving, self and dukkha, or we are dealing with wisdom, the cessation of craving, nirvana and freedom. The choice is ours to make.</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="6-a.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">13. </span>Day 6, morning</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="7-a.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">15. </span>Day 7, morning</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#second-noble-truth">14.1. Second noble truth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#third-noble-truth">14.2. Third noble truth</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nirvana">14.3. Nirvana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dependent-origination">14.4. Dependent origination</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-creating-process">14.5. Dukkha creating process</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dukkha-ceasing-process">14.6. Dukkha ceasing process</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Anthony Markwell
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2016 Anthony Markwell, 2019 revised edition.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

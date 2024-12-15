@@ -1,0 +1,920 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>11. Day 5, morning &#8212; Truly Understanding …</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=942ed838" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=57b96ea4"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '5-a';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="12. Day 5, afternoon" href="5-b.html" />
+    <link rel="prev" title="10. Day 4, afternoon" href="4-b.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Truly Understanding …</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="0-a.html">1. Day 0 afternoon: Orientation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="0-b.html">2. Day 0 evening: Meditation Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-a.html">3. Day 1, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-b.html">4. Day 1, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-a.html">5. Day 2, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-b.html">6. Day 2, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-a.html">7. Day 3, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-b.html">8. Day 3, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-a.html">9. Day 4, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4-b.html">10. Day 4, afternoon</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">11. Day 5, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5-b.html">12. Day 5, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-a.html">13. Day 6, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="6-b.html">14. Day 6, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-a.html">15. Day 7, morning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="7-b.html">16. Day 7, afternoon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="final.html">17. Final words</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chanting.html">18. Chanting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendices.html">19. Appendices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="author.html">20. Anthony Markwell</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/edit/main/5-a.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/edhamma/markwell-truly/issues/new?title=Issue%20on%20page%20%2F5-a.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Day 5, morning</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intention-and-desire">11.1. Intention and desire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contentment">11.2. Contentment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-five-faculties">11.3. The five faculties</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#balancing-the-five-faculties">11.4. Balancing the five faculties</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-the-five-faculties">11.5. Developing the five faculties</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="day-5-morning">
+<h1><span class="section-number">11. </span>Day 5, morning<a class="headerlink" href="#day-5-morning" title="Link to this heading">#</a></h1>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fanthonymarkwell%2Fday-5-morning-talk-desires-intentions-and-the-five-faculties%2F&amp;hide_cover=1" frameborder="0"></iframe>
+<p>This morning we are going to look more at intention and desire. And
+we are going to have a look at who is doing the meditating. If there is no
+me,  mine,  no  I,  if  there  is  nobody  here,  then  who  is  doing  the  meditation
+practice?</p>
+<p>Our  meditation  experience  will  be  different  for  everybody,  so  don’t
+compare to anybody or with your own expectations. Just settle back in the
+moment.  Be  here,  noting,  knowing,  trying  not  to  get  caught  in  your  own
+stories that take us away.</p>
+<section id="intention-and-desire">
+<h2><span class="section-number">11.1. </span>Intention and desire<a class="headerlink" href="#intention-and-desire" title="Link to this heading">#</a></h2>
+<p>I  want  you  to  start  to  have  a  look  at  your  little  wants  or  your  little
+desires. Sometimes we have the mind with just wanting something a little,
+little things we want to do, «would it be ok if I just did this». No! Look at
+these  little  wants  and  little  needs  we  have  been  catering  for  all  our  lives.
+We become the slaves of little wanting. It becomes habitual in our life. Our
+mind wants things to be just a little different than how they are. We start to
+tweak things, to interfere with what is functioning quite nicely but we are
+not satisfied with. We need to change it a little bit to satisfy our craving, to
+satisfy our wanting.</p>
+<p>So all our lives we have been catering to these little perceived desires,
+<span class="pdfpage">178</span>  all these things that we think make our life better. A little better for me. Actually these wishes and wants, these desires and cravings are the cause of suffering. It’s those little wishes that give us so much stress and worry. Because
+when they are not fulfilled, they give us a lot of dukkha. In fact it’s in the
+definition  of  dukkha,  «not  getting  what  one  wants». Any  discontent  with
+the way things are. If we are constantly reflecting upon it, we can become
+a miserable person, complaining about things, criticizing things. Things are
+not quite the way we want them to be, we want them to be a little bit different
+because that would be better for me. It’s always a question of what’s better
+for me. We can make ourselves more comfortable even when we are doing
+things for others.</p>
+<p>So this content needs to be observed, needs to be noted and known and
+let go of. Try to become aware of any states of discontent in the mind. Have a
+look at it closely and the trouble that is going on. If we can understand this, if
+we can change this, we can change our life quite dramatically. If we come to
+understand the difference of what we want and what we need – necessity, we
+do need certain stuff, a place to sleep, food every now and then, some clothing  –  these  are  needs.  Everything  else  are  wants.  If  you  don’t  understand
+your mind wanting stuff, if you can’t see this, than you are going to have to
+run around after it. You are going to have to fulfill all its wants. Or worse,
+you are going to have to run around to fulfill other people’s wants! We do a
+lot of that, don’t we? We run around to fulfill what other people want, what
+other people expect. It can be tricky. The different groups in our lives want
+different things. Our parents, our boss, our girlfriend, our lover – each wants
+something.  They  are  all  wanting  different  things.  It  causes  a  lot  of  stress
+if  we  don’t  see  this  wanting  mind,  this  mind  which  is  not  quite  satisfied.
+The tweaking mind. It wants to tweak itself. Making itself busy. Business is
+somehow relegated to a big thing in our societies. It’s kind of good. We want
+to be busy! Busy doing what? – Creating a sense of self!</p>
+<p>Just this little discontent. «Kow Tahm is here to change you. You are
+not here to change Kow Tahm.» This was a sign of Steve and Rosemary here.
+People want to change things! Why? – To satisfy themselves. To feed their
+self, to make sure their self is getting a little pat, «it’s all going to be all right,
+it’s all going to be good», just trying to feel a little more comfortable. All
+<span class="pdfpage">179</span>  we are really doing, is running around trying to satisfy this state of me. It’s
+defilement. It’s corruption of our present moment experience. An imperfection of the mind.</p>
+<p>If we constantly spend our lives running around catering to our wishes
+and wants, being their slaves, being their soldiers, then we run around doing
+craving’s work. It only leads to dukkha. So why not chill out and relax. Yes,
+relax a little bit – but no relaxing here, we are on a retreat – but when you
+leave you can relax a little bit.</p>
+<p>Try to let go of some of your wishes and wants. Try to identify them in
+your mind when they’re swirling. I am sure there’s a few things coming up.
+Little things and wants. What is that you have been planning in this retreat
+here? Have a look at those little things. We are constantly catering to them.
+We are constantly trying to become content but just don’t know the way. We
+think that if we just get that done then this will be it. «That’s the last room
+I’m going to extend the house with. Five extensions is enough, there will be
+no more.» Maybe a garage. We have to stop adding on that stuff. It’s only if
+we stop getting into craving, we just say no, we can’t fulfill your wishes at
+the moment. And then we may fall into some contentment.</p>
+</section>
+<section id="contentment">
+<h2><span class="section-number">11.2. </span>Contentment<a class="headerlink" href="#contentment" title="Link to this heading">#</a></h2>
+<p>Talking about contentment here, being content is right here in the present moment. Contentment is really important in our meditation practice. And
+it’s really important for our daily live if we want to be sane. We want to be
+content. We need to understand and be cool with how things are. We develop
+a state of mind, this is how it is now, this is what is occurring right now. It’s
+just like this.
+<em>This is dustness or suchness</em>,
+<em>tatata</em>
+in the Pali language. We
+are just allowing things to be such. We’re just allowing things to be dust. We
+are letting go of cravings little wants and wishes. We are not going to feed it
+anymore. We think by feeding it constantly, finally we are going to become
+content. No! It’s never satisfied. That desire is unsatiable. Contentment only
+happens when we give up. Trying to change everything when we settle down
+into the moment, say well, «this is how it is, hurray! It is just like this at the
+moment». Today is now. Today it’s like this. Then we’re just ourselves and
+start accepting things. We acknowledge, we observe how it is. We wake up
+<span class="pdfpage">180</span>  every morning and say, well, this is how it is today. And we have a good day.
+All we have to do is to extend our moment of contentment out a few
+moments. Keep extending it into the future. If you’re feeling unhappy, just
+make yourself content with how things are and than, it makes moment content,  makes  moment  content,  makes  moment  content,  whoever  you  meet,
+wherever  you  go.  It’s  all  cool.  It’s  all  good.  There’s  nothing  wrong  with
+people  of  the  world.  But  sometimes  our  minds  can  create  problems,  our
+mind just sees things as good or as bad. Things are not inherently good or
+inherently bad. We make ourselves quite unhappy by not recognizing contentment is right here in now. Contentment is accepting the way things are.
+Try to notice these little intentions because they take us out of contentment.
+Contentment  is  the  proximate  cause  of  happiness.  Happiness  is  the
+proximate cause for concentration. And concentration is the proximate cause
+for insight, for Vipassana. So we need to be content if we want to get Vipassana.  It’s  as  simple  as  that.  It’s  a  conditioned  process,  contentment  makes
+us  happy,  happiness  makes  us  concentrated  in  the  moment,  when  we  are
+concentrated and happy, we see things as they really are. If we are discontent
+and unhappy and moving and switching and dissatisfied you’re never going
+to concentrate the mind. You’re going to be restless, it’s going to be uncomfortable. So we need to become comfortable every moment of the day that
+we are meditating. We need to develop contentment with the way things are
+for  our  meditation  practice  to  come  to  fulfillment. We  have  to  understand
+our inability to stand up to defilements, the craving sense who attacks us. It’s
+really not that dissimilar to little children wanting more of this, more of that.
+More, more, we start to learn this from a young age. Observe the children
+and watch the craving grow in them. It’s quite bizarre if you start to observe
+that. Watch the little ones to get their sense of ego if they want to get stuff
+and to become.</p>
+<p>If we don’t make an effort to note these little desires and wants, and to
+let them go, then we are going to remain spiritually immature. If you want
+to evolve as a spiritual being you will have to become content with the way
+things are. This is how your karmically conditioned world is operating. You
+are the heir, you are the owner of your own karma. It’s unfolding, don’t be
+upset about it. We only think our karma is really bad when we attach to it. If
+<span class="pdfpage">181</span>  we don’t attach to all that is unfolding, it’s all just fine. Nothing wrong with
+it at all. Just conditioned processes – mind and matter arising and passing
+away. It doesn’t belong to anyone. Just going its way. We do make enormous
+problems  for  ourselves,  if  we  do  become  dissatisfied  or  when  we  want  to
+change  things,  constantly  changing  and  tweaking,  making  ourselves  busy,
+busy with the thought of me, making the world a better place for me to live
+in. And it doesn’t stop. When you are doing it in your 20’s, in your 30’s, you
+are doing it in your 60’s. Constantly tweaking, constantly not satisfied, looking for something else to do.</p>
+<p>So there is much dukkha in the mind that is discontent, which is unsatisfied. To be aware of this mind state, when it’s coming up – if you are not
+happy  with  something,  if  you  are  resisting  something,  if  you  are  pushing
+against – have a look at that mind state. That is where your work has to be
+done. That is what you need to realize to become content with. Right there!
+There is no-one else disturbing your mediation except for craving. Craving
+is the one that gets in the way.</p>
+<p>Let’s  have  a  look  at  this  cause  of  suffering.  If  you  are  experiencing
+some dukkha, the cause of it is craving. You are not content with the way
+things are right now. We want things to be different and so there is dukkha.
+When we can open our heart and open our minds into the present and accept
+whatever is there, not identifying with it, and allow it to be and let it pass
+away, than there is no dukkha in that moment. It is just a ceaseless flow of
+mental and physical phenomena.</p>
+</section>
+<section id="the-five-faculties">
+<h2><span class="section-number">11.3. </span>The five faculties<a class="headerlink" href="#the-five-faculties" title="Link to this heading">#</a></h2>
+<p>On  the  first  evening  of  our  mediation  retreat,  we  asked  the  question
+what is meditation. We said meditation is the development of five spiritual
+faculties. They are known as the
+<em>indrya</em>. Our Vipassana practice can be seen
+as a process developing certain positive mental factors, certain positive faculties until they are powerful enough to dominate the mind quite continuously. Until they are powerful enough to take control of the present moment
+away from craving and its mission to be. Then these faculties hand things
+over to awareness and wisdom so that they can do their job. On an intensive
+retreat like this, our practice will start to develop these controlling faculties.</p>
+<ul class="simple">
+<li><p><span class="pdfpage">182</span> They  are  strong  endurable  faith  and  confidence,  it’s  faith  and  confidence in yourself and the teaching and the practice.</p></li>
+<li><p>We  develop  a  continuous  energy,  activating  mindfulness,  activating    awareness in the present.</p></li>
+<li><p>We  develop  a  penetrative  mindfulness  or  awareness  where  the  mind really sinks into the object, it doesn’t slip off. Mindfulness keeps us in the present being here.</p></li>
+<li><p>We also develop different stages of concentration. The mind becomes
+stable. We develop a type of concentration which allows for the fifth
+faculty to unfold – wisdom. We develop a profound insight or wisdom
+into the nature of things.</p></li>
+</ul>
+<p>These five faculties are what we are developing on the retreat. In fact,
+these five faculties are doing the meditation practice. There is no-one doing
+it, they are meditating themselves. We activate them to get them going, so
+the mind starts to do its training. As we do the practice, these five faculties
+become  stronger  and  more  powerful.  On  a  longer  retreat,  one  month,  two
+months  or  three  months,  these  faculties  become  quite  developed  and  they
+take over. They take over control of the mind and body process. Our mindfulness becomes continuous with sustained momentum. We don’t slip off of
+the object, we don’t have to activate our awareness so much, we are right
+there  all  the  time. We  are  in  the  moment,  noting,  knowing  and  letting  go.
+That is when the faculties are fully developed, they turn into powers. These
+powers have the ability to cut through defilement. Not just suppress them,
+cut them off! Cut off the nasties from arising again.</p>
+<p>So these mental states do the meditating. They combine to watch the
+mind and body. They are the mind and body, but they are watching themselves. The thing is doing it itself. Please don’t inform craving what the faculties are doing. It will get upset. And please don’t tell the faculties that they
+are meditating themselves out of existence. That’s what it’s doing. The thing
+will meditate, this mind and body process, and the faculties are developed, it
+will mediate and meditate and meditate, until it sees clearly how it is coming
+into  existence  and  then  it  will  remove  its  cause  for  coming  into  existence
+and it will come to cessation. There is nobody here. It is an impermanent,
+impersonal process that we have been trapped in, that we believe is our life.
+<span class="pdfpage">183</span>  Very much like the matrix. That’s what we are living in.</p>
+<p>So these five faculties have the power to shut down the mind and body
+process, to bring it to cessation, to free consciousness from the bondage of
+mind and matter. And the bondage to the rounds of being and existence, to
+the bondage of birth, old age, sickness and death. We can free the mind, free
+consciousness  from  being  addicted  to  these  narrow,  small,  four  elements.
+And the mind, it goes with it. At the moment it is so strongly identifying with
+the body, it can hardly do anything else, constantly busy catering to these
+body’s wishes and wants trying to make it happy, trying to make it secure,
+trying  to  give  it  love  and  attention,  looking  at  it  in  the  mirror,  smiling  at
+itself, liking itself. It thinks about it constantly. It’s what it’s doing. So these
+five faculties have the ability to turn off the system so it comes to cessation
+and then the consciousness is free, unlimited. The knowing is not bound by
+the  confines  of  its  former  addiction.  It  stepped  out  of  its  addiction  to  this
+mind and body process. It stepped out of its addiction to being, its wanting to
+be something, its craving for existence, for recognition, for power, for fame,
+for identity, for personality, for grooviness. It does all kinds of things, quite
+dependent upon what other people think about it. What other people think
+about  the  mind  and  body  process  can  make  us  quite  upset.  Some  people
+don’t like us or scold us for some reason. We get upset with them, upset of
+this mind and body process. We identify with other people’s craving, other
+people’s defilements. We let that upset us. So other people are in the mess
+and we get pulled in the mess as well. We have identified with their mess.</p>
+<p>So we develop those five faculties. That is what our mediation practice
+is all about.
+<em>There is no-one that is meditating, there is no meditator. Medita-</em>
+<em>tion is occurring</em>. There is no meditator. Seeing is occurring but there is no
+seer. Hearing is occurring but there is no hearer. These things are going on.
+If we don’t train the mind, it will just be passive and receptive to whatever
+is there, and then reactive, passively reacting – if there can be such a thing –
+passive reaction. Sitting there and let the thing constantly just react: liking,
+disliking, wanting, not wanting. And we just go through our life like that.
+You  think  that  is  life!  We  think  we  have  to  conform  to  craving’s  desires.
+Trying to conform how our societies’ craving is. As Krishnamurti says, «it is
+by no means a sign of good health, to be well adjusted to a profoundly sick
+<span class="pdfpage">184</span>  society». We don’t have to try and conform to craving’s desires and wishes.
+That’s  not  our  purpose  to  become  one  of  the  herd,  to  become  one  of  the
+sheep. Our purpose is evolution, evolve as spiritual beings. That is the quest
+of  life.  That’s  our  great  fortunate  circumstance,  that  we  have  been  given
+the very fortunate opportunity of rebirth into a human body. A sense-sphere
+being that experiences dukkha and sukkha, experiences suffering and happiness, is fit and healthy and has come upon the Buddha’s teaching, is one
+of the lucky ones on the planet. Who has come upon this teaching? There
+is  seven  billion  people  on  the  planet.  How  many  of  them  get  to  actually
+practice  the  art  of  evolution?  Consider  yourselves  as  extremely  fortunate.
+To be fit and healthy and to have come upon the Buddha’s teaching. Allow
+the meditation process to evolve. And so that you can bring yourself out of
+dukkha.</p>
+<p>As  we  are  doing  our  practice,  we  are  noting  our  ‚rising,  falling,  sitting, touching, hearing, smelling, tasting, remembering, planning, thinking
+angry, dissatisfied, frustrated, lusting’ – all the things that are going on in
+the mind. As we start to note and know, and let go – as we all have put the
+conditions  in  place  during  the  last  couple  of  days  –  you  start  to  see  some
+results of your efforts. Maybe minor, a few thrills and spills here and there,
+maybe some understanding is coming to you, the nature of what life is all
+about. Of course, your insight gets deeper and deeper the more concentrated
+you become.</p>
+<p>We are doing our meditation and have our first good sitting, or something good happens, we become kind of satisfied. «Oh, what he is talking
+about  happened.»  «Oh,  good»,  and  so  we  develop  the  first  faculty,
+<em>sadha</em>
+or  faith.  «This  teaching  works,  maybe  the  Buddha  was  right,  maybe  if  I
+follow  this  technique  it  will  take  me  somewhere.»  So  we  develop  faith
+and  confidence  in  the  method  and  in  ourselves.  «I  can  do  it!»  What  does
+that  do?  It  makes  us  want  to  work  more,  get  the  whole,  sit  again. We  put
+forth  more  energy.  When  we  put  forth  more  energy  the  facility  of  energy
+starts  to  develop. We  are  actively  generating  our  awareness  in  the  present
+moment. We are bringing our mind back into the present moment after it has
+been wandering somewhere. It’s the effort and the energy to be present, to
+bring ourselves back, that we are talking about here. When we have a little
+<span class="pdfpage">185</span>  bit  of  success  in  our  practice,  it  builds  our  confidence,  we  put  forth  more
+effort, when we are putting forth more effort, then our mindfulness becomes
+more continuous. Our presence becomes more continuous. We sink into the
+objects  that  are  being  noted.  Our  mindfulness  becomes  more  confronted,
+more penetrative. It stays longer. It is able to discern the nature of reality
+of whatever it is that we are noting. And so the faculty of mindfulness gets
+developed. It’s the third faculty.</p>
+<p>As we do this, our mindfulness is continuous and penetrative, then the
+fourth faculty comes into being. The mind stabilizes, it will become quiet. It
+becomes still. – When you are in the back of a car wanting to take a photo, it
+becomes still fuzzy, not clear. As our concentration develops things become
+stable. We can take a photo and will see that that is crisp and clear. We are
+seeing things more clearly as our mind is more stable, becoming more concentrated. So the fourth faculty becomes developed. So when these first four
+faculties – faith, energy, mindfulness and concentration – when their work
+has been done, when they’ve been developed, then insight flows. We’ll have
+a taste of some dhamma. The curtain will open, knowledge will be revealed
+intuitively, you won’t come and need to ask me what happened, you’ll know
+it for yourself. You’ll see things as they are, you have a first taste of Vipassana knowledge.</p>
+<p>Of course, when an insight arises there is a great deal of excitement
+and  determination  for  the  practitioner.  We  become  enthusiastic. And  then
+our faith faculty deepens again. We get more faith and confidence, that leads
+to more energy, which leads to a more penetrative mindfulness, a more continuous  awareness,  which  leads  to  greater  stability  and  concentration,  and
+another insight unfolds. And then we get more faith and confidence…so it
+starts  again.  These  faculties  start  to  grow.  The  Buddha  says,  we  need  to
+develop these faculties. We build them until we can see things arising and
+passing away, until the knowledge of udayabbaya ñāṇa, the knowledge of
+arising and passing away. When we reach this, the mind will feel very fulfilled,  very  content  with  its  progress,  in  its  evolution.  It  sees  all  things  as
+conditioned  and  impermanent,  unwilling  to  appropriate  and  identify  with
+any  of  the  stuff.  It’s  no  longer  sticky. Awareness  doesn’t  get  stuck  in  the
+objects. They’ve all become coated in teflon. They arise and pass away, they
+<span class="pdfpage">186</span>  arise and pass away. None of the stories stick. None of them really have any
+interest. We can’t even be bothered thinking about them. We don’t want to
+go  into  any  stories  of  analyzing  or  identifying,  things  are  just  arising  and
+passing away and we are very content in that moment. We start to see things
+as they really are. Vipassana insight arises.</p>
+<p>This  picture  of  Vipassana  is  given  by  the  Buddha  in  the  old  texts:
+Vipassana can be compared to sharpening a knife. There are a lot of different conditions that we need to put in place to sharpening a knife. First of all
+the sharpening stone needs to be properly oiled, we need to hold the knife
+just at the right angle, we have to press with just the right amount of pressure, we have to go in a single direction, and we need to do it continuously,
+make sure we don’t blur any of the edges. Then we have to flip it over and do
+the other side of the blade. When we do this, when we develop our faculties
+in this way, the knife becomes very sharp. It cuts through defilement. It cuts
+through to wisdom.</p>
+<p>We  can  look  at  the  development  of  our  practice  just  like  sharpening
+a  knife.  To  be  observing  all  the  different  parts  of  the  sharpening  process.
+The  right  oil,  angle,  pressure,  the  right  direction,  all  these  things  need  to
+be monitored while we are watching, while we are noting and knowing in
+the  present  moment.  We  need  to  observe  these  faculties  as  well  to  make
+sure they are not getting unbalanced in some way. Learning to balance these
+faculties is an important part in our development. If we are lucky that we
+can practice with a meditation master who can do that, that’s good! I was
+fortunate enough to have a meditation teacher who paid a lot of attention to
+the balancing of the faculties making sure that the faculties are not becoming
+unbalanced but a condition for the arising of wisdom – wise attention. The
+voice of another. When we attend wisely to things, when we see the reasons
+and causes for things, we can see the reasons and causes for our meditation
+practice  becoming  successful,  we  can  make  appropriate  decisions  on  how
+we do our practice.</p>
+</section>
+<section id="balancing-the-five-faculties">
+<h2><span class="section-number">11.4. </span>Balancing the five faculties<a class="headerlink" href="#balancing-the-five-faculties" title="Link to this heading">#</a></h2>
+<p><span class="pdfpage">187</span> So the five faculties need to be balanced. Mindfulness is in the middle.
+Awareness  is  there,  watching  the  show,  observing,  taking  note  of  things.
+Energy  and  concentration  need  to  be  balanced  with  each  other.  Faith  and
+wisdom need to be balanced with each other. And then all five need to be
+balanced together. In our practice we need to monitor how our mind is doing.
+If the faculty of energy becomes too strong, stronger than concentration,  then  the  mind  becomes  restless. You  can’t  sit  still,  not  concentrated.
+In this case we need to sit more than walking. Our walking meditation and
+sitting meditation can help us balance the faculties.</p>
+<p>If we found ourselves not agitated but in a state of dullness, when our
+meditation  is  leading  to  a  quiet  state  of  dullness,  when  nothing  is  really
+happening, no further development, but is kind of nice and pleasant, when
+we’ve slipped into a dullness, then our faculty of concentration is stronger
+than our faculty of energy. We are not noting enough. The mind is spinning
+quite well and then it’s going into a kind of calmness. It just becomes dull
+and  calm.  So  we’ll  need  to  balance  that.  We’ll  need  to  do  more  energyfaculty work, more walking meditation, more noting. When we note more
+continuously, this builds the energy faculty.</p>
+<p>So we are trying to balance them. Too much slackness, do some more
+walking! Too much concentration, when it’s becoming dull, more walking!
+If we become agitated in our mind, we need to do more sitting. On a short
+retreat like this, we do just 45 minutes of each. On a longer retreat, we may
+monitor  that.  If  we  find  ourself  becoming  restless,  we  just  walk  for  half
+an  hour  and  sit  for  an  hour  to  develop  the  faculty  of  concentration.  If  we
+become dull and sleepy, we do an hour of walking meditation and half an
+hour of sitting trying to make more energy in the mind, more noting. You
+will notice when you try to note four objects, ’rising, falling, sitting, touching’, the mind is quite busy. Just noting like this for five minutes over and
+over again, takes a lot of effort, a lot of energy. When we do that our mind
+becomes very energized and then we can balance it with concentration.</p>
+<p>On the other side, we have to balance faith with wisdom. If our faculty
+of faith and confidence becomes too strong then we may become gullible, we
+start believing any kind of story that people tell us. Or we may become overdevotional. <span class="pdfpage">188</span>  Or we may become obsessed collecting flowers for the Buddha,
+spending six hours of the day doing that. Well, devotional activities, nothing wrong with them, I like them very much. We do a little bit, that’s nice
+and  inspiring. We  don’t  go  overboard. We  don’t  allow  our  faculty  of  faith
+to become so strong that wisdom and reason disappear. We need to balance
+our intelligence, our reason, our wisdom with faith. If we don’t have enough
+faith, the mind thinks it knows everything. If it doesn’t have faith, it relies
+purely on science and on reason, only these things are true and everything
+else is nonsense. It starts getting into that mode of operation. And this can
+be a problem as well; if we start to think we know everything already, no
+further work to be done. We maybe start to admonish others, we start to look
+down on other people. So we need to develop the faculty of wisdom to be
+balanced with the faculty of faith. We don’t want too much faith, then we
+become gullible, and we don’t want too much wisdom or intelligence so that
+we start to think we are the smartest person in the class.</p>
+<p>So these five faculties are to be balanced. Balancing the faculties is an
+aspect of meditation that needs to be understood clearly. You won’t always
+be on a retreat-setting like this. You won’t always be able to ask me, what
+should I do with my sitting, with my walking. You’ll have to take care of
+yourself. We need to be able to adjust and know. You’ll need to be able to
+read your own mind. «Oh, now the mind is feeling slack. It’s the time to do
+a long walking session and then I’ll do a short sit.» Or if we are feeling restless, worried and stressed, then it’s the time to do more sitting; just have a
+quick walking session before you have a long sitting to calm things down.
+You need to adjust the faculties yourself with your own practice. This is how
+we develop the faculties. These are the meditators. So we need to observe
+and watch that.</p>
+</section>
+<section id="developing-the-five-faculties">
+<h2><span class="section-number">11.5. </span>Developing the five faculties<a class="headerlink" href="#developing-the-five-faculties" title="Link to this heading">#</a></h2>
+<p>A few tips for developing the five faculties: The first of them is, pay
+attention  to  impermanence.  Really  have  a  good  look  at  things  arising  and
+passing  away.  See  it  in  the  breath,  it  arises  and  passes  away.  Each  breath
+is  just  a  single  momentary  unit,  coming  into  existence  and  passing  away,
+never returning again. That breath is gone – finished! It’s arisen and passed
+<span class="pdfpage">189</span>  away.  Our  stages  in  the  walking,  they  arise  and  finish,  arise  and  finish,
+finish, finish. Sounds are finishing, our thoughts and ideas are finishing. Our
+memory will come and go. A pain in the body will come and go. Sensations,
+feelings, emotions, thoughts – they are all arising and passing away. Have
+a  look  at  this,  pay  attention  to  this  aspect  of  your  experience.  Try  to  see
+things as being impermanent. Nothing lasts, nothing lasts forever. That’s an
+understatement! Nothing lasts for a second! It’s all gone, if you are noting
+and knowing and letting go. If you are not noting and knowing, then you are
+holding, you are attaching and clinging. Things stay around a little bit longer
+because they are being used by craving to develop a sense of self. Craving
+found a nice little bed for itself, a nice little sofa to sit on and starting its job
+of  causing  problems. Also  observe  mind  and  matter,  mental  and  physical
+phenomena arising and passing away at the six sense doors. This is where
+impermanence  is  seen.  We  see  impermanence  in  our  own  mind  and  body
+processes. Impermanence externally is also interesting to pay attention to.
+The leaves falling, the light fading, the sun moving. Those things are impermanent but we are much more interested in looking at our own internal features. This is where dukkha arises, and this is where dukkha ceases. And this
+idea of impermanence can only be confirmed through our own observations.
+So your own watching, your own noting and knowing when you see it for
+yourself. Reading about it, doesn’t really do anything. You can have a nice
+read about impermanence, but that’s nice, close the book and go to sleep. It
+doesn’t really change you. When you see it in your own mind, happening in
+your own body, then you get a good taste of what the dhamma is all about.
+It’s visible in the here and now.</p>
+<p>Secondly,  we  should  have  care  and  respect. This  is  a  good  basis  for
+developing the faculties. Care and respect for the practice, for the training.
+An  attitude  of  great  care,  we  are  trying  to  be  meticulous  in  our  practice.
+Have a look at the qualities of the sangha – those enlightened disciples of the
+Buddha. The Buddha has practiced straight forwardly, methodically, persistently. This is the qualities of the practice of the enlightened ones. We’ll need
+to develop this as well. We’ll need to have respect, have reverence for the
+training. It’s a noble training. It’s a training that has been passed down for
+26 centuries. It’s very effective. Such a teaching has had a profound effect
+<span class="pdfpage">190</span>  on human civilization in the last 2000 years. Now it’s our chance to witness
+this. You can also reflect on the benefits you are likely to enjoy from doing
+this  practice.  Having  care  means  slowing  down.  Slow  down  your  movements. Your  transitioning  from  the  sitting  hall,  to  the  walking  area,  to  the
+dinning hall, to your dorm. When you go to the toilet, slow down, be mindful and keep your awareness inside the body as much as you can. This is a
+second factor we can use to strengthen our faculties.</p>
+<p>A  third  factor  is  unbroken  continuity.  Be  continuous  in  your  practice. This develops the faculties very well. Preserving the continuity of our
+activated awareness. Be in the moment as much as possible. Moment after
+moment.  Don’t  allow  any  breaks  in  your  practice. This  really  strengthens
+the practice.</p>
+<p>These spiritual faculties produce spiritual warriors, people who are on
+the  path  to  enlightenment,  who  have  let  go  the  worldly  associations.  Not
+giving  up  all  fun  in  life!  But  letting  go  of  the  nonsense  that  is  not  useful
+for our evolution. We start to recognize what is useful and what is unuseful
+in our life, what is beneficial and what is unbeneficial, what is suitable and
+what is unsuitable for walking the path. When we recognize what is suitable
+and  what  is  unsuitable  we  can  make  wise  decisions  and  our  practice  will
+develop from there.</p>
+<p>So  having  unbroken  continuity  throughout  the  day,  apart  from  the
+hours  we  are  sleeping,  we  are  paying  attention  from  the  moment  we  hear
+that  bell  in  the  morning,  becoming  aware  of  our  head  on  the  pillow,  our
+‘very strong desire’ to leap up and get to the meditation hall as quickly as
+possible – some of you may have been thinking about sleeping in the meditation hall, maybe – so our continuity should be as strong as possible.
+<em>That is</em>
+<em>actually the secret of developing these five faculties.</em>
+Continuity, the fire stick
+rubbing! You have to keep it going so the friction remains warm. When the
+friction remains warm, we never know when the flames and fire are going
+to jump out. We never know when that spontaneous flame is going to flare
+up. We never know when an insight is going to arise. We know, that it arises
+when the mind is continuously aware of the present moment but we don’t
+know when. So we just have to keep putting it into the moment and trust that
+all conditions are going to be in place and so then it pops up by itself. An
+<span class="pdfpage">191</span>  insight, an understanding about the nature of the mind and the body process,
+that has a transformational effect that allows us to let go of that particular
+object. We no longer identify with it as me or mine. It’s seen clearly and it’s
+moved on from. We shouldn’t spend any time reflecting on how to practice
+when we leave this place. If you find yourself thinking about next week, or
+next  month,  make  a  note  of  that  planning.  Bring  you  back  to  the  present.
+Be strict with yourself. We have to be quite firm, kind of like when you are
+training an animal. You need to be kind, but set the rules, set the discipline
+and then you find that the dog becomes a very well trained friend. Just like
+the mind will become a very well trained friend as well after we have done
+our mindfulness training.</p>
+<p>And fourthly, the development of patience, perseverance and commitment to our practice strengthens the five faculties, strengthens these meditators.  Staying  committed  to  what  we  are  doing  and  being  patient.  In  fact
+the Buddha says, patience is the highest training. Practice patience – it’s a
+practice! It’s not that some people are patient and others are impatient. No,
+it  is  something  that  we  practice  with.  When  we  find  ourselves  becoming
+impatient, find ourselves getting frustrated because we are waiting for something or someone, that’s the time to be patient. When we are being attacked
+by a mental state or an emotional state, that’s the time to be patient. To ride
+it through, ride through the storm. The storm is coming, you can’t go outside to escape it, you can only go inside, go inside and become patient and
+watch the storm blow over without reacting to it. And it’s gone. This is very
+useful for the development of the faculties. We practice with effort, we don’t
+entertain any attachments. We don’t take any prisons. Everything is let go
+of, everything is to be noted and known and let go of. If we find ourselves
+getting a little close to something, then we got some work to do there. If we
+started attaching to it, there is work to be done. Things need to be let go of.
+If we are not prepared to confront our defilements, if we are not prepared to
+go in the battle, with our fears, with our anxieties, then we have just to keep
+attaching to them and dukkhering ourselves. But if we can just stand-up once
+with mindfulness and awareness and look at this emotional state or this fear
+or this concern, we look it right into the face, watch our problem and note
+it, know it. We stand up to it, we will see it fade away. In front of wisdom.
+<span class="pdfpage">192</span>  Wisdom  is  much  tougher  than  the  defilements.  The  defilements  are  more
+tricky. They have been ruling the show for a long time. They’ve had control
+for many, many years. So they are well exercised and well trained. Wisdom
+is a little bit weak, still in school, still learning the rules. Sometimes it wins,
+sometimes it looses. As long as we are developing, that’s fine. As long as
+we put forth effort, as long as we know what we’re doing, then we’re doing
+the training, the practice. The Buddha says, it’s a gradual training, a gradual
+practice and a gradual process. This is not the kind of practice that we do for
+a week and then put it on the shelf and say it was good. Finished. – Meditation  is  something  that  we  continue  in  our  lives.  It  goes  much  further  than
+sitting on the mat or walking like a zombie in the forest. It goes much further
+than that, our meditation practice.</p>
+<p>So these faculties, when we develop them, when we balance them, get
+us to deep understanding of nature and life. They are the meditators. So take
+care of them. They are the ones doing the work for you.</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="4-b.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">10. </span>Day 4, afternoon</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="5-b.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">12. </span>Day 5, afternoon</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intention-and-desire">11.1. Intention and desire</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contentment">11.2. Contentment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-five-faculties">11.3. The five faculties</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#balancing-the-five-faculties">11.4. Balancing the five faculties</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-the-five-faculties">11.5. Developing the five faculties</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Anthony Markwell
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2016 Anthony Markwell, 2019 revised edition.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
